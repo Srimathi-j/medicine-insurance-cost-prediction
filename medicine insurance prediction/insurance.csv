@@ -1,0 +1,1001 @@
+age,sex,bmi,children,smoker,region,sleep_quality,income_level,diet_quality,activity_level,family_history,current_medication,medical_history,charges
+56,male,27.2,1,no,southeast,9,118322,7,low,diabetes,none,asthma,5580.0
+46,female,39.4,2,yes,northwest,10,135329,4,high,hypertension,none,arthritis,11090.0
+32,female,22.8,4,no,southwest,9,88619,8,high,none,insulin,none,4180.0
+60,female,19.0,4,yes,southwest,6,41584,10,moderate,hypertension,blood pressure meds,cancer,9550.0
+25,male,32.2,3,yes,southeast,3,28521,10,low,hypertension,cholesterol meds,cancer,11210.0
+38,male,27.5,4,no,southwest,1,70017,7,low,hypertension,blood pressure meds,asthma,6335.0
+56,male,24.9,0,yes,southeast,4,53541,10,low,heart disease,cholesterol meds,cancer,11165.0
+36,male,33.5,4,yes,southwest,3,49063,5,low,hypertension,cholesterol meds,cancer,11595.0
+40,male,31.2,3,no,southeast,1,90268,6,high,none,none,none,5460.0
+28,male,27.2,2,yes,southwest,3,145234,5,moderate,diabetes,insulin,arthritis,9920.0
+28,male,23.6,2,yes,northeast,4,146218,7,moderate,hypertension,none,none,9740.0
+41,male,34.4,4,yes,northwest,8,138206,2,high,none,none,arthritis,10940.0
+53,female,33.3,1,no,northeast,9,84952,5,low,hypertension,none,none,5825.0
+57,female,29.5,2,no,northwest,3,113054,10,moderate,diabetes,cholesterol meds,asthma,5615.0
+41,male,39.2,4,no,northwest,6,59563,3,moderate,none,none,cancer,6180.0
+20,male,24.6,3,yes,southeast,10,59752,9,high,none,cholesterol meds,arthritis,8930.0
+39,female,22.4,4,yes,northwest,5,115233,6,low,diabetes,insulin,asthma,10300.0
+19,male,26.5,2,yes,northeast,6,22567,10,moderate,none,cholesterol meds,cancer,8905.0
+41,male,29.8,3,yes,northeast,4,36121,3,low,diabetes,cholesterol meds,cancer,12410.0
+61,male,31.2,4,no,southwest,10,21674,7,moderate,none,blood pressure meds,cancer,5180.0
+47,female,28.8,0,yes,northeast,6,96411,4,high,none,none,none,10380.0
+55,female,31.8,3,yes,southwest,7,129876,3,low,diabetes,none,asthma,11990.0
+19,female,23.7,0,yes,northwest,9,86275,8,high,diabetes,none,asthma,8565.0
+38,female,37.2,1,no,northeast,10,87081,4,moderate,none,none,cancer,5720.0
+50,female,29.6,3,yes,northwest,7,49140,1,high,none,blood pressure meds,arthritis,10780.0
+29,male,35.6,0,yes,northeast,6,145139,6,high,diabetes,blood pressure meds,asthma,9360.0
+39,female,31.7,2,yes,northeast,1,29327,10,high,heart disease,blood pressure meds,none,10365.0
+61,male,32.3,2,yes,southwest,2,90663,1,moderate,diabetes,blood pressure meds,arthritis,11835.0
+42,male,32.8,1,yes,northwest,1,43331,5,low,none,none,arthritis,11380.0
+44,female,32.2,3,no,northeast,9,43004,7,high,none,cholesterol meds,arthritis,4790.0
+59,female,33.2,3,yes,southeast,10,127369,6,low,none,insulin,arthritis,11140.0
+45,male,36.6,3,yes,northwest,10,139243,2,moderate,diabetes,blood pressure meds,asthma,11030.0
+33,male,31.0,1,yes,northwest,9,30492,4,low,none,cholesterol meds,cancer,11310.0
+32,male,33.5,3,yes,northwest,7,74797,2,high,heart disease,blood pressure meds,arthritis,10615.0
+64,female,29.6,2,yes,southwest,2,78095,1,high,hypertension,none,none,11760.0
+61,female,37.2,0,yes,southeast,6,33749,3,high,heart disease,none,none,11080.0
+20,female,26.6,2,yes,northwest,4,83217,3,high,diabetes,cholesterol meds,cancer,10730.0
+54,female,39.0,2,yes,northeast,1,109044,7,high,none,cholesterol meds,asthma,11030.0
+24,female,29.8,0,yes,northeast,1,29045,1,high,diabetes,cholesterol meds,cancer,10770.0
+38,male,22.8,2,yes,southwest,5,40116,9,moderate,hypertension,none,arthritis,9100.0
+26,female,30.6,1,no,northeast,2,38667,6,moderate,diabetes,none,asthma,4950.0
+56,male,26.6,0,no,northwest,4,95057,4,moderate,none,insulin,asthma,6250.0
+35,male,34.2,2,no,northeast,1,94205,3,low,hypertension,cholesterol meds,arthritis,7410.0
+21,male,26.7,4,no,northwest,4,47302,3,low,hypertension,insulin,none,6955.0
+42,female,27.8,2,yes,northeast,6,31283,2,moderate,none,blood pressure meds,arthritis,10430.0
+31,female,20.6,1,no,southeast,10,50935,2,low,none,insulin,cancer,5750.0
+26,female,27.7,3,no,southwest,4,92534,10,low,none,blood pressure meds,arthritis,6005.0
+43,male,17.9,2,yes,southwest,1,114342,5,high,diabetes,blood pressure meds,none,9755.0
+19,male,22.1,3,no,southeast,7,51624,9,high,heart disease,insulin,arthritis,3785.0
+37,male,33.8,4,no,southeast,2,33440,2,low,diabetes,cholesterol meds,cancer,7630.0
+45,male,33.9,2,yes,southwest,9,131001,2,low,diabetes,blood pressure meds,cancer,11795.0
+64,male,32.1,0,yes,southeast,3,66501,6,moderate,heart disease,cholesterol meds,none,10685.0
+24,male,25.2,3,yes,northwest,8,107333,10,low,none,none,cancer,10040.0
+61,female,29.8,4,no,northeast,8,21269,2,high,none,blood pressure meds,cancer,6110.0
+25,female,30.0,0,no,southwest,3,27868,4,low,heart disease,none,arthritis,6800.0
+64,female,24.2,0,yes,southeast,4,50251,6,moderate,heart disease,insulin,asthma,10290.0
+52,female,37.5,0,yes,northwest,2,97909,5,high,diabetes,cholesterol meds,cancer,10715.0
+31,male,34.4,0,no,southwest,4,104523,1,high,hypertension,insulin,cancer,6140.0
+34,male,28.9,2,yes,southeast,9,58729,6,high,heart disease,blood pressure meds,none,9325.0
+53,female,30.1,2,no,southwest,2,35734,1,high,diabetes,none,none,6565.0
+57,male,31.0,2,yes,southeast,3,62429,3,low,hypertension,blood pressure meds,arthritis,12690.0
+21,female,19.8,4,yes,southwest,4,61337,10,moderate,none,insulin,arthritis,9610.0
+19,female,28.8,4,no,northwest,5,60325,5,low,none,cholesterol meds,cancer,5220.0
+23,female,26.6,4,yes,northwest,1,103600,10,low,diabetes,cholesterol meds,asthma,10990.0
+59,male,25.0,1,yes,northeast,7,82514,5,high,diabetes,blood pressure meds,asthma,9530.0
+21,female,28.6,4,yes,southwest,10,28433,10,moderate,heart disease,blood pressure meds,arthritis,9250.0
+46,female,39.0,2,no,northeast,7,133957,6,high,none,none,none,5070.0
+35,female,33.2,2,yes,southwest,9,29111,10,low,diabetes,insulin,cancer,10560.0
+43,male,27.1,1,yes,southeast,4,123986,8,low,none,blood pressure meds,cancer,11115.0
+61,male,32.9,1,yes,southeast,6,83753,5,high,none,none,asthma,9965.0
+51,female,37.0,4,yes,northeast,2,133783,1,low,heart disease,blood pressure meds,arthritis,13070.0
+27,male,34.6,3,yes,southwest,4,100583,5,low,hypertension,cholesterol meds,asthma,11370.0
+53,male,30.3,1,yes,northeast,2,93620,3,high,heart disease,none,asthma,11475.0
+31,male,26.8,0,no,northwest,10,41751,4,low,diabetes,none,arthritis,5960.0
+48,male,33.5,2,no,northeast,5,36453,8,moderate,heart disease,blood pressure meds,none,4835.0
+32,male,32.0,0,yes,northeast,7,105844,7,high,heart disease,insulin,cancer,9240.0
+25,male,34.5,2,no,southeast,1,58968,5,moderate,none,cholesterol meds,none,5225.0
+31,male,33.2,2,no,northeast,10,50077,2,low,heart disease,insulin,arthritis,6480.0
+40,male,35.2,1,yes,southwest,10,128582,6,low,diabetes,none,arthritis,10660.0
+57,male,27.3,1,no,southeast,7,54775,6,high,hypertension,insulin,cancer,4605.0
+38,male,36.6,0,no,northeast,10,78144,10,low,heart disease,none,none,5590.0
+33,female,31.0,2,no,northwest,6,68570,10,high,heart disease,insulin,cancer,4410.0
+62,female,40.4,0,no,northeast,6,66097,6,high,hypertension,blood pressure meds,asthma,5260.0
+35,male,26.6,3,no,northeast,8,44503,9,high,diabetes,insulin,asthma,4330.0
+64,female,38.7,0,no,northeast,8,22779,8,high,diabetes,none,asthma,5215.0
+41,female,31.0,4,no,southeast,6,106840,8,high,heart disease,cholesterol meds,none,4770.0
+43,male,26.7,0,no,southwest,3,20755,1,moderate,none,cholesterol meds,asthma,5995.0
+42,male,27.6,4,yes,northwest,5,59263,5,high,heart disease,cholesterol meds,cancer,9620.0
+62,male,28.4,4,yes,northeast,2,128491,7,moderate,hypertension,none,none,10860.0
+58,female,32.1,4,no,southwest,5,75087,6,low,hypertension,insulin,cancer,6165.0
+46,female,32.6,3,no,southwest,9,62281,5,high,hypertension,cholesterol meds,arthritis,4850.0
+32,male,27.1,0,yes,southeast,10,71482,8,low,heart disease,cholesterol meds,none,9995.0
+62,male,29.9,0,no,northwest,1,74857,3,high,heart disease,cholesterol meds,cancer,6535.0
+18,male,40.7,3,no,southeast,10,142989,6,moderate,diabetes,blood pressure meds,cancer,4695.0
+42,female,38.6,2,yes,southwest,5,37400,5,moderate,none,none,none,9970.0
+24,female,32.2,1,yes,southwest,6,60115,8,moderate,heart disease,none,arthritis,9190.0
+26,female,30.2,0,yes,southwest,7,34249,4,low,diabetes,none,none,11030.0
+41,female,30.6,1,no,southeast,9,133183,8,high,heart disease,none,asthma,4450.0
+18,male,33.1,3,no,northwest,6,66825,10,low,diabetes,none,asthma,5315.0
+61,male,24.9,2,yes,northeast,5,130361,2,moderate,diabetes,blood pressure meds,arthritis,10665.0
+25,male,28.7,2,yes,southeast,7,44600,9,low,none,insulin,cancer,10135.0
+41,male,21.7,2,no,southwest,1,57706,9,moderate,heart disease,blood pressure meds,cancer,4905.0
+28,female,32.0,3,yes,southeast,5,39222,10,moderate,diabetes,cholesterol meds,cancer,9460.0
+34,female,33.2,4,no,southwest,2,119041,10,moderate,hypertension,blood pressure meds,none,5540.0
+25,male,27.6,4,no,northeast,4,124504,6,high,hypertension,none,none,5080.0
+52,male,37.9,1,yes,northeast,7,61139,4,high,hypertension,blood pressure meds,arthritis,11035.0
+52,female,23.9,4,yes,northwest,5,134919,4,moderate,none,none,asthma,10635.0
+50,male,22.7,4,no,southwest,6,136605,6,low,diabetes,blood pressure meds,cancer,5535.0
+22,female,31.1,2,yes,northwest,2,61302,5,low,none,none,asthma,10995.0
+59,male,35.2,2,yes,northwest,3,114684,6,high,heart disease,cholesterol meds,none,10940.0
+56,male,38.4,1,yes,northeast,7,107838,7,moderate,heart disease,none,none,10140.0
+58,male,27.7,0,yes,southeast,2,88159,7,low,diabetes,blood pressure meds,none,11345.0
+45,male,35.4,1,no,southeast,6,28646,9,moderate,hypertension,cholesterol meds,asthma,4770.0
+24,male,29.8,1,no,northwest,5,33543,8,low,diabetes,blood pressure meds,arthritis,5070.0
+26,male,29.1,3,no,northeast,10,114496,6,high,diabetes,cholesterol meds,arthritis,4275.0
+25,male,34.4,3,no,southwest,1,148212,6,moderate,diabetes,insulin,none,5320.0
+29,female,33.3,1,yes,southeast,10,42785,5,moderate,none,insulin,cancer,9345.0
+51,female,22.1,1,yes,northwest,4,98353,1,low,heart disease,insulin,asthma,12025.0
+50,female,37.4,1,no,southeast,2,51406,9,low,diabetes,blood pressure meds,none,6770.0
+40,female,36.9,4,no,southeast,4,108992,9,low,diabetes,blood pressure meds,asthma,6845.0
+41,female,26.9,3,yes,southwest,1,71428,9,moderate,diabetes,cholesterol meds,asthma,10265.0
+54,male,32.0,1,no,northeast,2,43777,8,high,none,cholesterol meds,arthritis,5580.0
+52,male,32.5,2,no,southwest,8,77939,10,high,none,cholesterol meds,none,4865.0
+61,female,31.3,2,yes,northeast,6,73026,3,low,none,cholesterol meds,arthritis,11985.0
+57,male,27.2,4,no,southeast,2,106450,1,high,diabetes,none,none,6700.0
+39,female,26.6,4,yes,northwest,6,49553,8,low,hypertension,insulin,asthma,10510.0
+44,female,29.9,0,yes,southwest,10,43548,7,high,hypertension,none,arthritis,9375.0
+52,male,35.9,0,no,northeast,9,83221,5,moderate,hypertension,none,asthma,4835.0
+18,male,32.7,0,yes,southeast,7,57265,10,low,heart disease,none,none,9995.0
+52,male,28.1,4,no,northeast,9,145549,7,high,diabetes,none,cancer,4845.0
+54,female,33.9,4,yes,northeast,5,60701,10,moderate,hypertension,insulin,arthritis,10175.0
+64,male,15.8,4,no,northeast,7,71287,4,high,hypertension,none,arthritis,5470.0
+31,female,35.7,2,no,southeast,7,26727,9,moderate,hypertension,cholesterol meds,asthma,4605.0
+20,female,21.3,4,no,northwest,3,130460,10,moderate,diabetes,blood pressure meds,asthma,4665.0
+18,female,28.2,2,yes,northwest,7,70717,2,high,hypertension,cholesterol meds,cancer,9970.0
+22,male,24.4,0,yes,northwest,1,52427,9,high,hypertension,blood pressure meds,arthritis,9460.0
+43,male,23.5,0,no,northeast,9,36692,9,moderate,diabetes,cholesterol meds,none,4035.0
+31,female,35.8,0,yes,southeast,10,51625,5,moderate,heart disease,cholesterol meds,none,9410.0
+56,male,27.7,1,no,northeast,6,44918,1,moderate,none,blood pressure meds,arthritis,5605.0
+44,male,31.7,1,no,northwest,5,126931,7,low,hypertension,insulin,arthritis,5565.0
+26,male,29.8,3,yes,northwest,7,61136,10,moderate,none,none,arthritis,9310.0
+32,female,32.4,3,no,southeast,5,134826,10,low,heart disease,cholesterol meds,cancer,5560.0
+32,female,30.4,3,yes,northeast,10,134881,4,moderate,heart disease,insulin,none,10460.0
+43,male,23.6,1,no,southwest,5,72409,9,low,hypertension,none,none,5140.0
+59,female,35.0,1,yes,southwest,10,35577,6,moderate,diabetes,insulin,asthma,10030.0
+30,male,27.5,3,no,northwest,7,105155,3,moderate,heart disease,insulin,asthma,5275.0
+49,male,22.2,3,no,southeast,10,131776,6,moderate,none,none,arthritis,4390.0
+56,male,27.9,4,yes,northeast,7,119246,10,high,none,cholesterol meds,asthma,9915.0
+49,male,37.5,3,no,northeast,3,122924,6,high,none,insulin,cancer,5955.0
+21,female,34.3,4,no,northwest,3,146759,5,moderate,none,cholesterol meds,none,5335.0
+47,female,28.3,2,yes,northwest,10,140408,2,low,heart disease,cholesterol meds,none,11555.0
+54,female,28.3,1,no,northeast,3,101731,10,low,hypertension,cholesterol meds,asthma,6395.0
+40,male,28.4,3,yes,northeast,6,47689,10,moderate,hypertension,none,arthritis,9520.0
+56,male,40.4,1,no,northwest,6,31154,2,high,none,blood pressure meds,asthma,6240.0
+62,male,31.9,1,yes,northeast,3,124657,7,low,hypertension,cholesterol meds,arthritis,11735.0
+32,female,32.2,1,no,southwest,3,114948,2,high,none,blood pressure meds,cancer,6150.0
+60,male,35.2,2,no,northwest,8,41341,6,low,none,blood pressure meds,none,6160.0
+46,female,31.2,0,no,northeast,8,117554,5,moderate,diabetes,insulin,cancer,4480.0
+53,female,28.7,3,yes,northwest,7,94681,4,high,heart disease,cholesterol meds,none,10795.0
+30,female,29.0,0,yes,southeast,10,127798,7,low,heart disease,cholesterol meds,cancer,10050.0
+49,female,29.6,0,yes,northwest,4,66330,8,moderate,none,cholesterol meds,asthma,10260.0
+24,female,29.8,0,yes,northwest,4,138069,4,moderate,heart disease,blood pressure meds,cancer,10770.0
+39,female,33.6,1,no,southeast,3,107759,1,moderate,hypertension,none,cancer,6360.0
+45,male,30.3,4,no,southwest,5,88416,1,high,none,blood pressure meds,asthma,5815.0
+19,male,33.7,1,yes,northeast,3,145067,1,high,diabetes,cholesterol meds,none,10965.0
+59,female,29.6,1,yes,southeast,8,106807,1,moderate,hypertension,cholesterol meds,none,10760.0
+62,female,30.4,0,yes,northwest,7,53313,5,high,diabetes,cholesterol meds,asthma,9760.0
+23,male,20.0,1,no,northeast,3,66900,4,low,diabetes,blood pressure meds,cancer,6360.0
+45,female,34.6,0,yes,southeast,9,98840,9,moderate,heart disease,cholesterol meds,cancer,9630.0
+45,female,31.7,4,yes,northeast,5,54695,3,moderate,heart disease,insulin,cancer,10885.0
+61,male,35.0,3,no,northeast,9,50225,7,high,none,cholesterol meds,arthritis,5270.0
+61,female,15.5,0,no,southeast,7,106072,8,moderate,heart disease,none,none,3995.0
+37,female,40.4,4,yes,northeast,7,116367,6,low,diabetes,insulin,cancer,11160.0
+47,female,29.3,3,no,southwest,6,69156,10,high,diabetes,cholesterol meds,none,4705.0
+28,male,35.5,2,yes,southeast,2,97209,1,high,hypertension,insulin,cancer,11335.0
+45,male,24.8,0,no,southwest,9,107453,8,moderate,diabetes,cholesterol meds,asthma,4140.0
+42,male,33.1,0,yes,northwest,6,47829,10,moderate,none,none,asthma,9495.0
+56,female,24.7,2,yes,northeast,8,100908,3,moderate,none,cholesterol meds,none,10555.0
+50,female,26.9,2,yes,northwest,1,45938,8,high,heart disease,insulin,none,10345.0
+18,male,39.6,0,yes,northwest,5,79164,4,moderate,heart disease,none,asthma,10340.0
+44,female,29.0,2,no,northeast,1,74530,8,low,heart disease,blood pressure meds,arthritis,6330.0
+30,female,31.1,1,no,southeast,10,140921,1,moderate,none,none,asthma,5255.0
+58,female,34.4,3,no,northeast,8,88199,3,moderate,diabetes,none,cancer,6180.0
+20,female,32.5,3,no,northwest,8,80282,6,high,heart disease,none,arthritis,4325.0
+56,female,30.8,3,yes,northwest,1,67801,9,moderate,hypertension,insulin,asthma,10760.0
+23,male,31.8,1,yes,southeast,9,29465,2,high,heart disease,none,arthritis,10150.0
+25,female,42.0,2,no,northeast,2,23326,1,moderate,none,cholesterol meds,arthritis,6600.0
+44,male,29.7,4,no,northwest,9,23659,10,low,heart disease,none,arthritis,5765.0
+26,female,31.0,2,no,southwest,1,80289,3,low,diabetes,none,none,7070.0
+54,male,35.3,0,no,northwest,10,47594,4,high,heart disease,cholesterol meds,asthma,5845.0
+50,female,35.5,3,no,northwest,9,135819,5,high,none,cholesterol meds,none,5075.0
+59,male,35.9,2,yes,southeast,4,24763,3,moderate,none,blood pressure meds,none,11975.0
+61,female,33.2,4,yes,southwest,9,108657,10,moderate,hypertension,none,cancer,10280.0
+41,male,24.3,0,yes,northwest,7,30828,2,low,none,insulin,cancer,11035.0
+32,female,38.2,1,no,northwest,6,67588,2,moderate,hypertension,none,arthritis,5650.0
+49,male,24.3,1,no,southwest,5,31221,7,low,diabetes,none,arthritis,5295.0
+49,female,31.5,4,no,northeast,9,31211,9,high,none,cholesterol meds,cancer,4955.0
+41,male,26.2,0,no,northeast,2,33569,10,moderate,heart disease,blood pressure meds,cancer,4930.0
+58,male,29.7,3,yes,northwest,2,116894,2,high,diabetes,none,asthma,11745.0
+29,female,31.6,2,yes,northwest,9,57860,7,moderate,heart disease,insulin,arthritis,9360.0
+56,female,31.6,0,no,northeast,3,91558,7,low,heart disease,none,arthritis,6500.0
+19,male,32.1,1,yes,southeast,8,65337,7,high,heart disease,insulin,cancer,9085.0
+20,female,38.1,4,yes,southwest,9,72311,3,high,diabetes,cholesterol meds,asthma,10705.0
+54,male,32.3,4,no,southwest,8,33515,7,moderate,diabetes,blood pressure meds,cancer,5095.0
+34,male,28.8,2,no,southeast,4,91695,1,high,none,none,cancer,6120.0
+19,male,34.8,4,no,southeast,1,142006,10,low,heart disease,blood pressure meds,none,6320.0
+19,female,35.9,4,no,southeast,4,131527,1,high,hypertension,none,arthritis,6375.0
+45,male,23.9,0,no,southeast,9,126749,5,high,none,insulin,asthma,4095.0
+40,male,33.0,3,no,southeast,2,107227,2,moderate,diabetes,blood pressure meds,none,6550.0
+54,female,33.5,2,yes,southeast,3,44904,9,high,hypertension,none,arthritis,10755.0
+49,female,28.5,0,yes,southwest,10,79935,7,moderate,diabetes,cholesterol meds,cancer,9405.0
+50,female,36.9,3,no,southeast,8,63790,4,moderate,hypertension,insulin,asthma,6145.0
+18,female,29.2,0,yes,northeast,6,88580,4,high,none,blood pressure meds,arthritis,9820.0
+36,male,30.6,0,no,southeast,8,95148,2,low,hypertension,none,cancer,6250.0
+19,male,29.1,4,no,southeast,7,25636,5,moderate,none,blood pressure meds,none,4235.0
+61,male,30.1,3,no,southwest,5,97129,4,high,diabetes,none,asthma,6025.0
+43,male,24.5,2,no,southwest,9,134483,1,moderate,hypertension,insulin,arthritis,5285.0
+49,female,22.8,2,yes,southeast,4,22892,8,low,heart disease,cholesterol meds,none,11120.0
+23,male,38.0,3,no,southwest,6,41672,3,low,heart disease,insulin,cancer,6660.0
+49,male,25.8,4,yes,northwest,2,25812,6,moderate,diabetes,blood pressure meds,cancer,10470.0
+21,female,25.0,1,no,southwest,2,116621,4,low,hypertension,blood pressure meds,arthritis,6570.0
+28,male,19.2,0,no,southwest,2,148177,9,high,heart disease,none,cancer,4320.0
+34,male,26.8,4,no,southwest,10,20654,7,high,none,insulin,asthma,4420.0
+55,male,23.4,3,yes,southwest,7,74633,9,moderate,hypertension,none,arthritis,9570.0
+41,male,38.2,0,no,northeast,2,37143,10,low,hypertension,insulin,none,6530.0
+22,male,35.0,2,no,northeast,2,75934,3,high,heart disease,blood pressure meds,arthritis,6190.0
+51,male,26.6,1,no,northeast,9,87334,1,high,none,none,arthritis,5450.0
+23,female,41.3,2,yes,southeast,7,123463,5,high,none,none,none,9725.0
+39,female,34.9,3,yes,southeast,3,145851,3,moderate,none,insulin,cancer,11625.0
+28,male,28.4,0,yes,northwest,3,49087,6,moderate,hypertension,cholesterol meds,none,9780.0
+33,male,17.5,3,no,northeast,7,31618,8,high,diabetes,insulin,asthma,3835.0
+50,female,41.5,0,yes,southeast,5,28446,4,high,hypertension,cholesterol meds,cancer,11075.0
+26,male,23.1,4,no,southwest,10,107182,5,low,hypertension,insulin,arthritis,5075.0
+23,male,21.8,1,yes,southwest,6,122127,5,low,heart disease,blood pressure meds,cancer,9650.0
+33,male,35.1,4,yes,northeast,8,68867,4,low,diabetes,none,cancer,11815.0
+46,female,42.2,4,no,northwest,9,71028,4,moderate,none,insulin,asthma,6430.0
+20,male,36.9,3,yes,northwest,1,80101,4,high,heart disease,blood pressure meds,cancer,11345.0
+37,female,32.8,1,no,southwest,3,47200,4,moderate,hypertension,insulin,cancer,6280.0
+53,male,33.0,0,no,northwest,7,115107,4,high,diabetes,none,cancer,5710.0
+36,female,34.3,0,yes,northeast,6,108074,5,low,none,insulin,arthritis,10435.0
+43,female,33.8,2,no,southwest,7,126091,2,low,none,cholesterol meds,cancer,6750.0
+20,male,31.4,0,no,southeast,8,81465,2,low,hypertension,none,none,5970.0
+36,female,30.5,3,yes,southeast,6,129500,9,low,none,cholesterol meds,cancer,10545.0
+37,male,29.7,4,yes,northwest,3,106436,2,high,none,blood pressure meds,asthma,11425.0
+49,female,26.2,4,no,southwest,2,138422,6,low,diabetes,blood pressure meds,cancer,6490.0
+24,male,28.6,4,yes,southwest,7,144124,2,high,heart disease,insulin,cancer,10310.0
+58,male,21.5,1,no,southeast,1,107892,5,high,diabetes,cholesterol meds,arthritis,5135.0
+50,female,29.5,0,no,southwest,3,108559,4,moderate,heart disease,cholesterol meds,none,6275.0
+57,male,25.1,3,yes,southwest,4,140044,7,low,heart disease,none,cancer,11495.0
+56,male,24.5,1,yes,southwest,1,59148,7,low,heart disease,cholesterol meds,none,11245.0
+35,female,30.9,2,yes,northwest,5,102928,6,moderate,none,cholesterol meds,asthma,9445.0
+57,male,37.0,3,yes,southwest,10,40698,10,high,diabetes,none,arthritis,10290.0
+18,male,34.6,3,no,northeast,3,62470,5,low,none,none,none,6190.0
+28,female,22.1,3,no,northwest,2,112071,1,high,hypertension,cholesterol meds,arthritis,5765.0
+45,female,25.1,4,yes,southwest,3,71660,3,moderate,diabetes,insulin,cancer,11355.0
+42,male,34.7,3,yes,southwest,8,73910,9,high,heart disease,none,asthma,9875.0
+40,male,25.1,0,no,northeast,6,55450,1,low,none,none,arthritis,6055.0
+48,female,28.9,3,no,northwest,7,76463,5,high,none,cholesterol meds,cancer,4705.0
+47,female,32.8,4,no,southeast,6,53757,2,high,diabetes,cholesterol meds,none,5980.0
+59,male,25.2,3,no,southeast,6,98012,4,low,diabetes,none,asthma,6740.0
+52,female,30.5,2,yes,northwest,3,126750,1,low,heart disease,cholesterol meds,asthma,12565.0
+24,male,23.3,2,no,southwest,8,147043,3,high,heart disease,none,none,4845.0
+33,male,27.0,4,no,southwest,7,90247,10,high,hypertension,insulin,none,4410.0
+43,male,31.6,0,yes,southeast,7,92015,7,moderate,heart disease,insulin,asthma,9440.0
+19,male,22.0,0,no,southeast,6,51390,10,low,none,none,arthritis,4480.0
+18,male,32.2,1,no,southeast,5,76116,3,high,hypertension,none,asthma,5070.0
+29,female,29.9,4,yes,northeast,10,33161,4,low,hypertension,blood pressure meds,none,11475.0
+22,female,32.8,3,yes,southeast,8,52152,2,moderate,hypertension,blood pressure meds,arthritis,10380.0
+54,female,31.1,4,yes,northeast,5,100171,3,high,diabetes,cholesterol meds,cancer,11035.0
+49,female,36.8,1,no,northwest,9,126379,9,high,heart disease,cholesterol meds,asthma,4920.0
+26,male,30.6,4,no,southwest,9,115833,3,high,hypertension,none,none,5450.0
+58,male,27.9,4,yes,southeast,1,40836,5,low,diabetes,none,cancer,11755.0
+52,male,30.6,1,yes,southwest,6,110367,2,moderate,diabetes,blood pressure meds,asthma,10670.0
+36,male,32.7,0,no,southwest,7,86543,4,low,hypertension,blood pressure meds,asthma,6355.0
+33,female,30.2,3,yes,southeast,3,75648,7,high,hypertension,none,arthritis,10270.0
+20,male,30.2,1,yes,southeast,7,46331,7,moderate,none,insulin,none,9010.0
+37,male,26.5,2,yes,northwest,7,125992,3,high,hypertension,insulin,cancer,10265.0
+41,female,26.7,0,no,northeast,2,30763,5,high,none,cholesterol meds,asthma,4955.0
+50,female,23.0,2,no,northeast,7,89444,1,low,hypertension,none,arthritis,6350.0
+41,female,38.7,0,no,southwest,1,113109,10,high,hypertension,none,cancer,5555.0
+28,female,23.8,3,no,southeast,5,39187,10,moderate,heart disease,cholesterol meds,cancer,4050.0
+25,male,26.5,3,no,northwest,9,31957,10,high,hypertension,blood pressure meds,asthma,4125.0
+53,male,26.4,4,no,northwest,7,24379,1,high,hypertension,blood pressure meds,cancer,5780.0
+55,female,34.5,2,yes,northwest,7,47959,5,low,none,insulin,asthma,11025.0
+57,male,28.5,0,no,northwest,2,102018,10,moderate,none,none,arthritis,5365.0
+37,male,36.2,3,no,northwest,8,143076,9,low,heart disease,blood pressure meds,arthritis,5850.0
+52,male,26.6,1,yes,northeast,3,47105,1,high,hypertension,insulin,cancer,11270.0
+42,female,31.4,3,no,northeast,8,20877,1,low,hypertension,insulin,asthma,6710.0
+52,male,25.8,1,no,northeast,3,68353,4,low,none,insulin,none,7230.0
+42,female,40.7,0,yes,southeast,10,103788,4,low,diabetes,blood pressure meds,arthritis,11875.0
+46,male,24.1,3,yes,southwest,7,116870,2,low,diabetes,blood pressure meds,asthma,11425.0
+35,male,31.5,3,yes,northwest,2,104585,9,high,diabetes,none,asthma,10375.0
+63,male,33.2,0,no,southeast,4,103308,9,high,none,none,asthma,5720.0
+35,female,32.1,3,yes,northwest,6,71567,2,moderate,none,insulin,cancer,10605.0
+19,male,29.1,1,no,northeast,9,77913,9,low,diabetes,insulin,none,4935.0
+52,female,29.4,3,no,southeast,5,22637,6,low,diabetes,blood pressure meds,cancer,5810.0
+33,female,30.2,2,no,northeast,9,92778,8,moderate,hypertension,blood pressure meds,arthritis,4370.0
+58,female,29.3,4,no,northwest,5,62025,10,low,none,none,cancer,6025.0
+53,male,34.8,1,yes,northwest,10,126917,4,moderate,none,none,asthma,10900.0
+50,male,41.1,2,yes,southwest,8,121187,2,high,diabetes,cholesterol meds,cancer,11255.0
+21,male,27.2,0,no,northwest,1,119508,2,moderate,diabetes,none,asthma,5580.0
+50,male,23.2,1,yes,northeast,7,102464,9,low,heart disease,blood pressure meds,none,10260.0
+31,female,29.6,4,no,northwest,4,48742,1,moderate,none,insulin,cancer,6300.0
+38,female,42.9,4,no,southwest,5,31831,7,high,heart disease,cholesterol meds,cancer,5305.0
+37,female,26.0,0,no,southwest,6,133768,3,low,hypertension,none,cancer,6040.0
+25,male,38.2,0,yes,northeast,5,135911,3,high,heart disease,none,asthma,10410.0
+24,female,38.4,1,no,southeast,1,105092,2,high,diabetes,blood pressure meds,asthma,6300.0
+20,male,27.2,3,no,northwest,9,110879,10,moderate,none,cholesterol meds,cancer,4060.0
+34,female,32.8,0,yes,southwest,2,108370,6,high,none,none,cancer,10120.0
+50,male,38.1,3,yes,northwest,9,146537,10,low,heart disease,insulin,none,11205.0
+29,male,28.1,2,yes,northwest,10,66762,2,high,heart disease,blood pressure meds,none,10185.0
+39,female,29.0,4,yes,southeast,2,124824,10,high,hypertension,cholesterol meds,arthritis,10430.0
+39,female,27.1,3,no,southwest,9,118958,4,moderate,hypertension,none,none,5435.0
+63,female,24.9,4,yes,northwest,6,108741,10,high,diabetes,none,none,9905.0
+47,female,26.8,3,no,southwest,9,38830,9,moderate,diabetes,cholesterol meds,none,4580.0
+55,male,23.9,2,yes,northeast,6,75044,9,moderate,diabetes,blood pressure meds,asthma,9495.0
+55,female,30.2,0,yes,northeast,6,93948,6,low,heart disease,cholesterol meds,none,10610.0
+62,female,26.2,2,yes,northwest,2,89202,4,low,heart disease,cholesterol meds,none,12550.0
+25,female,31.2,0,yes,southwest,8,57045,7,low,none,blood pressure meds,cancer,10060.0
+44,male,22.2,0,yes,northwest,3,106322,1,low,diabetes,none,asthma,11790.0
+44,male,31.7,4,yes,southwest,7,137257,4,moderate,heart disease,insulin,arthritis,10865.0
+51,female,34.2,2,no,southwest,5,91051,5,high,none,blood pressure meds,arthritis,4930.0
+38,male,20.0,3,yes,southeast,3,127509,8,low,diabetes,insulin,none,10860.0
+47,female,31.9,2,yes,southeast,1,46627,2,low,hypertension,none,arthritis,12535.0
+50,male,36.1,4,yes,southeast,8,35198,5,low,hypertension,cholesterol meds,arthritis,11205.0
+45,male,24.0,0,yes,northwest,3,89521,6,high,heart disease,insulin,arthritis,9900.0
+64,male,38.4,4,no,southeast,2,131439,5,low,none,none,none,7400.0
+50,male,32.1,1,yes,southeast,1,126471,9,high,hypertension,none,arthritis,10505.0
+22,female,26.5,1,yes,northeast,4,49475,10,moderate,none,cholesterol meds,none,9665.0
+36,female,29.7,3,yes,southwest,8,125752,1,moderate,none,cholesterol meds,cancer,10505.0
+21,female,32.8,4,yes,southwest,3,138998,3,moderate,hypertension,none,cancer,11260.0
+52,male,30.4,3,no,southeast,1,39403,2,high,none,none,arthritis,6660.0
+34,female,32.7,3,yes,southwest,4,23681,3,low,hypertension,insulin,cancer,12415.0
+61,female,25.4,1,no,northeast,9,111555,10,low,heart disease,none,none,5590.0
+45,female,30.8,3,yes,northeast,1,138884,9,low,diabetes,none,cancer,11540.0
+47,male,22.9,1,no,southeast,2,113122,9,low,diabetes,insulin,arthritis,5985.0
+46,male,29.4,0,no,northeast,9,135260,10,low,heart disease,blood pressure meds,none,5390.0
+63,male,25.5,4,yes,southwest,2,62292,2,high,hypertension,insulin,asthma,11735.0
+23,female,26.3,3,yes,northwest,3,123057,3,moderate,hypertension,insulin,none,10875.0
+52,female,36.2,1,no,southwest,7,125386,4,low,hypertension,cholesterol meds,cancer,6950.0
+58,female,35.5,2,no,northwest,3,122306,9,moderate,hypertension,insulin,asthma,5935.0
+54,male,33.0,3,yes,southeast,9,25629,3,high,heart disease,none,none,11030.0
+41,male,24.5,0,no,northwest,6,113246,7,high,diabetes,none,asthma,4045.0
+46,female,28.4,0,no,northeast,3,115864,3,low,none,none,asthma,7140.0
+63,male,36.1,2,no,southwest,9,97814,7,high,none,blood pressure meds,asthma,5265.0
+48,male,30.7,1,yes,northwest,1,28417,7,moderate,diabetes,none,none,10395.0
+52,male,41.6,3,no,southwest,10,138888,9,low,heart disease,blood pressure meds,cancer,6420.0
+50,male,32.0,1,no,southeast,3,54765,2,low,none,none,none,7500.0
+38,female,31.0,0,no,southeast,1,94499,6,moderate,diabetes,insulin,cancer,5110.0
+49,male,28.5,1,yes,northeast,2,134088,9,low,heart disease,cholesterol meds,none,11305.0
+40,male,30.7,0,yes,southeast,8,76574,2,low,none,none,none,11335.0
+50,male,29.2,1,no,northwest,7,122828,2,moderate,hypertension,blood pressure meds,none,5560.0
+20,male,33.5,2,yes,southeast,2,110545,5,low,hypertension,blood pressure meds,cancer,11075.0
+35,female,34.8,4,no,northeast,2,148206,10,low,heart disease,cholesterol meds,none,6640.0
+42,female,26.1,2,yes,southwest,9,47675,10,moderate,hypertension,none,asthma,9345.0
+59,male,23.3,2,yes,southwest,6,145609,10,high,heart disease,insulin,none,9545.0
+48,male,20.8,4,no,southeast,5,121711,8,moderate,diabetes,none,asthma,4400.0
+20,male,32.5,4,yes,northwest,10,92267,9,low,diabetes,none,arthritis,10425.0
+57,male,24.5,3,yes,northeast,6,60563,2,moderate,none,cholesterol meds,arthritis,10665.0
+63,male,19.2,3,yes,northwest,9,31332,5,low,heart disease,none,cancer,10520.0
+41,male,31.9,2,no,northeast,7,143745,7,low,none,insulin,cancer,5615.0
+49,female,42.5,2,yes,southeast,10,39177,6,moderate,none,blood pressure meds,arthritis,10305.0
+64,male,30.0,0,yes,northeast,10,109254,6,low,diabetes,cholesterol meds,none,10780.0
+39,female,34.2,0,no,northeast,9,88447,7,high,none,insulin,none,4490.0
+40,female,30.4,3,yes,southeast,4,77104,3,low,hypertension,blood pressure meds,none,12420.0
+19,male,29.5,3,yes,northwest,2,104335,3,moderate,none,cholesterol meds,arthritis,10955.0
+44,female,34.6,0,yes,southeast,8,134938,10,high,heart disease,cholesterol meds,asthma,9610.0
+59,female,28.5,0,yes,northeast,4,100730,9,high,hypertension,blood pressure meds,cancer,10405.0
+19,female,31.3,1,yes,southeast,9,24951,8,low,diabetes,blood pressure meds,asthma,10045.0
+43,female,31.6,1,no,northeast,4,126402,5,moderate,heart disease,insulin,arthritis,5340.0
+34,female,26.7,0,no,southeast,8,48333,6,low,hypertension,none,asthma,5015.0
+57,female,35.0,1,yes,southwest,9,41673,10,low,heart disease,none,none,10990.0
+50,male,29.1,4,yes,southwest,9,134421,1,moderate,hypertension,none,none,10855.0
+26,female,26.2,3,yes,southeast,10,60870,10,moderate,heart disease,none,asthma,9130.0
+60,female,32.7,3,no,northwest,4,141945,1,low,heart disease,none,arthritis,7935.0
+56,female,25.5,0,no,northeast,1,147536,4,high,hypertension,insulin,asthma,6195.0
+46,male,30.1,2,yes,southwest,3,91101,2,low,diabetes,cholesterol meds,none,12425.0
+59,female,30.0,0,yes,northwest,9,42821,7,high,diabetes,insulin,none,9680.0
+43,male,35.4,1,no,northeast,4,45494,2,low,heart disease,insulin,arthritis,7530.0
+52,female,32.4,2,yes,southwest,5,119477,10,moderate,heart disease,insulin,asthma,9860.0
+42,male,29.9,1,no,southwest,7,146083,2,high,diabetes,cholesterol meds,none,5435.0
+41,male,34.1,4,no,southeast,5,94160,5,moderate,diabetes,insulin,none,4925.0
+30,female,37.0,1,yes,northeast,4,132698,4,moderate,none,insulin,asthma,11350.0
+24,female,32.8,4,no,northwest,2,131560,8,moderate,diabetes,cholesterol meds,asthma,5320.0
+53,male,30.1,4,yes,northwest,2,20835,4,moderate,heart disease,insulin,cancer,11765.0
+62,female,23.4,1,yes,northwest,4,145126,6,moderate,hypertension,none,arthritis,10310.0
+37,male,24.7,1,yes,northeast,10,38646,5,low,diabetes,blood pressure meds,arthritis,10075.0
+18,male,28.5,4,yes,northwest,10,143777,2,high,none,insulin,asthma,10185.0
+25,male,27.0,2,yes,northwest,9,97360,8,low,none,blood pressure meds,arthritis,10050.0
+63,male,29.1,4,yes,northwest,8,57335,2,low,none,insulin,none,12115.0
+33,male,30.3,3,no,southeast,3,89351,9,low,hypertension,insulin,asthma,6275.0
+31,female,32.6,4,no,southeast,9,134934,9,moderate,diabetes,none,asthma,4650.0
+29,male,29.6,2,no,northeast,5,22429,3,low,diabetes,cholesterol meds,asthma,6260.0
+40,male,32.4,3,no,northeast,3,61950,4,high,diabetes,blood pressure meds,cancer,6520.0
+32,female,30.3,0,yes,northwest,5,80654,8,low,hypertension,cholesterol meds,arthritis,10155.0
+45,male,20.1,0,no,southeast,10,127422,9,moderate,hypertension,none,cancer,3905.0
+51,female,25.3,2,no,southwest,4,129934,3,high,heart disease,none,none,6285.0
+19,female,29.3,4,no,southwest,8,139975,5,high,none,blood pressure meds,arthritis,4245.0
+49,female,24.0,1,yes,northwest,5,88143,8,high,none,cholesterol meds,cancer,9280.0
+40,male,33.0,2,no,northwest,10,111186,3,high,diabetes,none,asthma,5650.0
+39,male,37.7,3,yes,southeast,8,124234,7,low,hypertension,insulin,cancer,10965.0
+42,male,36.1,3,no,southeast,9,117889,8,moderate,hypertension,insulin,asthma,4945.0
+39,female,28.9,0,yes,southeast,4,122326,10,high,diabetes,insulin,cancer,10025.0
+39,male,37.5,3,yes,northeast,7,97527,3,high,diabetes,cholesterol meds,cancer,10955.0
+59,female,30.7,2,no,northeast,2,106704,2,moderate,heart disease,insulin,cancer,6715.0
+23,male,28.3,3,yes,northwest,6,51099,10,low,none,insulin,asthma,10175.0
+32,female,26.9,2,yes,northeast,8,59385,7,high,none,none,cancer,9185.0
+60,male,28.5,1,no,southeast,7,55919,9,low,none,none,arthritis,5725.0
+54,male,28.1,0,no,southeast,7,116952,1,low,heart disease,insulin,arthritis,6485.0
+50,male,30.9,3,no,northeast,8,80782,3,low,diabetes,insulin,arthritis,6845.0
+25,female,30.8,2,yes,southwest,7,91116,5,low,diabetes,none,asthma,10240.0
+61,female,30.0,4,yes,northwest,5,92590,3,high,none,blood pressure meds,asthma,11120.0
+61,male,32.2,0,yes,southwest,7,109626,1,high,none,cholesterol meds,arthritis,10830.0
+22,male,36.0,1,no,northwest,10,60387,7,low,heart disease,cholesterol meds,arthritis,5340.0
+56,female,34.7,2,yes,southwest,3,35823,7,low,hypertension,none,arthritis,11855.0
+21,female,22.6,1,yes,northeast,5,66015,10,moderate,hypertension,cholesterol meds,none,8650.0
+23,female,17.2,1,yes,northwest,7,122877,8,moderate,none,none,arthritis,8420.0
+62,male,34.7,3,yes,northwest,9,35339,5,moderate,heart disease,none,cancer,10275.0
+49,female,23.2,3,yes,northwest,2,149949,10,high,none,none,none,10240.0
+47,male,28.9,2,yes,southeast,4,23491,5,moderate,hypertension,none,none,10385.0
+64,female,24.1,4,yes,southeast,7,20706,5,high,none,blood pressure meds,asthma,9885.0
+52,male,21.0,2,no,southwest,1,117493,1,high,hypertension,insulin,cancer,6090.0
+57,female,32.7,4,no,northeast,2,35728,10,high,hypertension,insulin,asthma,5975.0
+33,female,33.8,1,no,southeast,9,26997,5,high,hypertension,blood pressure meds,asthma,4450.0
+30,female,27.1,0,yes,northwest,10,123537,6,moderate,diabetes,cholesterol meds,cancer,8955.0
+59,female,17.0,2,yes,southeast,7,80408,1,low,diabetes,cholesterol meds,asthma,11230.0
+47,female,27.3,2,no,northeast,10,78097,7,low,none,insulin,cancer,5505.0
+36,male,32.0,4,yes,southeast,7,149526,1,low,hypertension,cholesterol meds,cancer,11720.0
+34,female,22.6,1,no,northwest,6,58523,2,moderate,diabetes,insulin,asthma,4910.0
+36,female,30.9,1,yes,southwest,3,141648,2,low,none,insulin,arthritis,12165.0
+45,female,29.9,4,yes,northwest,10,45163,5,moderate,none,blood pressure meds,asthma,9795.0
+43,male,32.9,1,no,northeast,3,37718,10,moderate,none,cholesterol meds,none,5405.0
+54,female,30.6,3,no,southwest,2,107508,7,moderate,none,blood pressure meds,asthma,5710.0
+43,male,25.1,0,no,southeast,6,103767,1,low,none,insulin,cancer,6115.0
+40,female,36.0,2,no,southeast,4,59619,10,low,heart disease,insulin,none,6600.0
+26,female,29.2,0,no,southeast,5,32126,1,low,hypertension,insulin,cancer,5980.0
+29,male,29.9,2,yes,southwest,3,109131,1,high,none,none,arthritis,11075.0
+18,female,25.3,3,yes,northwest,6,84926,6,moderate,heart disease,none,arthritis,8925.0
+18,male,27.8,1,yes,southwest,3,60633,2,high,hypertension,none,none,10650.0
+64,male,25.6,4,no,southwest,8,97654,1,moderate,diabetes,blood pressure meds,arthritis,5960.0
+51,female,29.1,3,no,northeast,9,23317,6,low,none,insulin,arthritis,5775.0
+49,male,38.6,0,no,southwest,4,64980,2,moderate,heart disease,cholesterol meds,asthma,6710.0
+42,female,23.1,4,no,southeast,9,64115,6,moderate,diabetes,blood pressure meds,asthma,4395.0
+57,female,21.9,1,no,northwest,7,81646,10,high,heart disease,blood pressure meds,arthritis,4335.0
+62,male,37.4,3,no,northwest,3,63158,8,moderate,hypertension,blood pressure meds,arthritis,6210.0
+18,male,29.0,4,yes,northwest,7,75963,2,low,hypertension,cholesterol meds,asthma,11210.0
+33,male,26.7,3,yes,southeast,1,67631,9,moderate,diabetes,insulin,arthritis,10095.0
+56,male,35.2,3,yes,southeast,3,69316,8,moderate,heart disease,none,arthritis,10980.0
+22,female,27.0,1,yes,southeast,6,125364,10,moderate,none,insulin,cancer,8890.0
+39,female,39.1,2,yes,southeast,4,79342,1,high,none,insulin,arthritis,11735.0
+46,male,33.4,4,no,southeast,7,35504,7,moderate,diabetes,blood pressure meds,none,4990.0
+20,female,27.6,1,no,southwest,3,88593,10,moderate,diabetes,blood pressure meds,cancer,4680.0
+29,female,40.8,3,no,southeast,1,46660,6,high,diabetes,blood pressure meds,none,5720.0
+43,female,27.0,1,no,southeast,9,57196,6,high,heart disease,none,arthritis,4310.0
+33,female,33.7,2,no,southeast,6,85938,6,high,none,none,asthma,4545.0
+54,male,31.5,4,no,southeast,8,28605,6,high,none,none,cancer,5055.0
+39,male,36.5,2,yes,northwest,3,77388,10,low,none,insulin,asthma,11605.0
+46,female,37.8,0,no,southeast,8,101297,7,low,diabetes,blood pressure meds,cancer,5810.0
+31,male,30.2,4,no,southwest,2,75501,3,moderate,none,cholesterol meds,asthma,6330.0
+45,male,26.2,2,no,southwest,4,73309,6,low,hypertension,insulin,cancer,6210.0
+22,male,32.3,3,no,southwest,3,47043,3,moderate,diabetes,none,cancer,6155.0
+64,female,26.6,4,yes,northeast,10,53635,7,low,none,cholesterol meds,none,11010.0
+47,female,40.1,4,yes,northwest,1,99315,7,high,heart disease,cholesterol meds,asthma,11145.0
+63,female,30.7,1,no,southeast,7,100691,8,high,diabetes,blood pressure meds,none,4895.0
+22,male,28.2,3,yes,northeast,10,126514,2,low,hypertension,cholesterol meds,none,11150.0
+29,female,30.9,0,yes,southeast,2,53132,9,low,hypertension,none,asthma,10925.0
+33,female,23.3,2,no,northeast,4,109387,5,moderate,heart disease,blood pressure meds,cancer,4825.0
+43,male,25.1,1,no,northeast,9,35366,9,moderate,heart disease,cholesterol meds,none,4215.0
+43,female,36.0,2,no,southwest,6,113944,10,moderate,diabetes,blood pressure meds,asthma,4860.0
+38,female,26.7,0,no,southwest,8,92107,5,high,diabetes,cholesterol meds,cancer,4095.0
+56,male,24.8,0,no,northeast,2,82580,7,high,hypertension,insulin,none,5160.0
+53,male,32.7,4,yes,southwest,7,135267,9,high,heart disease,insulin,none,10095.0
+50,male,35.9,0,no,northeast,6,142362,4,high,diabetes,none,none,5795.0
+47,female,33.6,2,no,northwest,9,77889,2,moderate,hypertension,insulin,cancer,5820.0
+54,female,35.0,3,no,southwest,7,99553,9,high,heart disease,insulin,none,5130.0
+40,female,26.2,3,yes,southwest,1,59236,2,high,hypertension,insulin,cancer,11210.0
+27,male,22.9,4,no,southwest,8,24150,3,high,none,cholesterol meds,arthritis,5085.0
+22,male,37.5,2,no,northwest,10,131369,10,high,heart disease,cholesterol meds,none,4515.0
+53,female,28.4,2,no,northeast,3,39423,2,low,diabetes,blood pressure meds,arthritis,7480.0
+51,female,28.7,0,yes,southeast,2,24137,3,moderate,diabetes,cholesterol meds,asthma,11255.0
+48,male,36.6,2,no,southwest,3,49992,6,moderate,none,insulin,none,5790.0
+27,male,32.8,1,no,northeast,6,130540,3,high,heart disease,cholesterol meds,asthma,5280.0
+36,male,32.3,0,no,northwest,3,114438,10,low,hypertension,none,asthma,6135.0
+49,male,40.8,1,yes,southeast,10,135140,8,moderate,diabetes,blood pressure meds,asthma,10120.0
+18,female,26.8,4,no,southwest,5,64921,6,moderate,none,blood pressure meds,arthritis,4100.0
+22,male,34.6,3,no,northwest,6,141225,7,high,none,cholesterol meds,cancer,4470.0
+62,female,30.3,4,no,northwest,8,99369,1,high,heart disease,insulin,arthritis,6155.0
+21,female,31.3,3,yes,southeast,7,86917,3,moderate,heart disease,blood pressure meds,arthritis,10285.0
+33,female,37.6,4,no,northeast,8,93690,3,moderate,diabetes,none,asthma,5940.0
+41,male,32.5,2,no,southwest,3,54235,2,low,none,none,none,7445.0
+33,male,32.7,1,no,southwest,4,98975,7,moderate,hypertension,blood pressure meds,cancer,5195.0
+19,male,35.4,3,yes,northeast,6,39122,9,moderate,none,insulin,asthma,9450.0
+45,male,28.2,0,yes,northeast,7,43956,4,high,hypertension,insulin,cancer,10310.0
+49,female,25.8,1,no,northeast,9,83879,5,moderate,hypertension,cholesterol meds,arthritis,4370.0
+44,male,24.8,0,yes,southeast,1,78560,3,high,diabetes,cholesterol meds,cancer,10920.0
+37,male,20.2,1,yes,southeast,8,141435,9,moderate,none,blood pressure meds,cancer,8850.0
+41,female,40.3,1,yes,southwest,8,102800,4,moderate,hypertension,cholesterol meds,none,10935.0
+29,male,24.5,4,no,southeast,6,130310,5,moderate,heart disease,cholesterol meds,asthma,4205.0
+52,female,28.9,3,no,northwest,4,88685,1,low,hypertension,cholesterol meds,cancer,7585.0
+50,female,28.6,3,yes,southwest,3,44660,2,high,heart disease,none,cancer,11530.0
+50,female,31.5,1,yes,southeast,3,148029,9,low,heart disease,cholesterol meds,arthritis,11475.0
+60,female,34.1,2,yes,northeast,6,126196,2,moderate,none,blood pressure meds,arthritis,11105.0
+54,female,34.3,2,no,northwest,8,106064,5,low,heart disease,insulin,cancer,5995.0
+29,female,27.1,0,no,northeast,7,134440,8,high,hypertension,cholesterol meds,asthma,3935.0
+20,female,29.2,0,yes,southwest,1,21168,3,moderate,heart disease,insulin,cancer,10660.0
+18,female,31.4,4,yes,northeast,6,65124,6,low,none,cholesterol meds,cancer,10330.0
+50,male,28.8,1,yes,southeast,7,55897,4,low,diabetes,blood pressure meds,none,11540.0
+57,male,38.0,0,yes,southeast,7,35032,7,high,hypertension,none,asthma,10040.0
+27,male,32.5,0,no,southwest,9,72797,10,low,hypertension,blood pressure meds,none,5165.0
+60,male,33.7,1,yes,northeast,10,55294,3,high,none,none,asthma,10985.0
+61,female,33.3,4,no,southwest,5,63827,6,moderate,none,cholesterol meds,asthma,5285.0
+46,male,35.9,0,yes,northeast,1,23516,10,moderate,none,cholesterol meds,asthma,10515.0
+30,female,30.9,4,yes,northwest,2,39751,9,low,none,none,none,11345.0
+29,male,23.5,3,yes,southeast,4,50373,10,moderate,hypertension,blood pressure meds,none,9855.0
+48,male,32.0,4,yes,southwest,5,142026,1,moderate,diabetes,blood pressure meds,none,10960.0
+63,male,26.7,2,yes,northwest,9,50270,3,low,heart disease,none,arthritis,11795.0
+19,female,27.4,2,no,northwest,1,30386,2,moderate,heart disease,cholesterol meds,none,5750.0
+52,male,32.9,4,yes,southwest,3,121859,8,low,diabetes,none,arthritis,11885.0
+40,female,36.2,2,yes,southwest,5,84817,7,high,diabetes,cholesterol meds,arthritis,9810.0
+34,female,30.1,3,yes,northwest,3,85184,2,high,diabetes,none,arthritis,11285.0
+43,male,31.5,1,no,northeast,4,134316,6,high,none,cholesterol meds,cancer,5335.0
+25,male,38.5,2,no,northwest,3,99693,3,low,hypertension,none,cancer,7425.0
+46,male,31.2,2,no,southwest,4,57879,8,low,hypertension,insulin,cancer,6480.0
+43,female,43.0,4,no,northwest,1,125056,10,moderate,hypertension,cholesterol meds,arthritis,6210.0
+27,male,32.8,3,yes,northeast,8,69597,3,moderate,none,blood pressure meds,arthritis,10480.0
+43,female,21.2,1,yes,southeast,4,59132,10,moderate,hypertension,none,asthma,9820.0
+51,female,33.8,4,yes,southeast,7,23626,9,moderate,none,blood pressure meds,arthritis,10110.0
+58,male,31.9,4,no,northwest,2,105936,1,moderate,hypertension,none,cancer,6955.0
+24,male,36.4,3,yes,northeast,2,122179,5,low,diabetes,blood pressure meds,arthritis,11400.0
+21,female,33.4,1,yes,southeast,6,123801,3,low,heart disease,blood pressure meds,arthritis,11190.0
+62,female,29.3,3,no,northwest,2,101515,6,high,heart disease,none,asthma,5805.0
+28,female,23.9,1,no,northwest,6,97065,10,high,none,none,arthritis,3855.0
+46,male,29.0,3,no,northeast,2,75390,2,high,hypertension,blood pressure meds,none,6470.0
+53,female,25.7,4,yes,southwest,4,36645,9,high,heart disease,blood pressure meds,asthma,10545.0
+42,male,27.1,4,yes,northwest,7,111960,6,low,diabetes,blood pressure meds,arthritis,10595.0
+38,female,32.9,0,no,southwest,8,74144,7,low,diabetes,cholesterol meds,arthritis,5405.0
+53,female,38.3,2,yes,southwest,3,33382,5,low,diabetes,cholesterol meds,asthma,11975.0
+27,male,32.0,3,no,southeast,9,24025,9,moderate,none,insulin,arthritis,4440.0
+54,female,24.0,0,no,southwest,2,63226,1,moderate,none,cholesterol meds,cancer,6080.0
+26,male,32.2,2,yes,northeast,8,99380,5,high,hypertension,cholesterol meds,none,9330.0
+41,male,36.0,3,no,southeast,8,142971,10,moderate,diabetes,none,none,4920.0
+52,female,27.0,1,no,southeast,4,138910,6,low,hypertension,insulin,cancer,6290.0
+52,male,29.3,2,no,southeast,1,89711,7,high,hypertension,insulin,arthritis,5505.0
+53,male,30.1,4,yes,northwest,1,116055,4,high,diabetes,cholesterol meds,arthritis,11765.0
+35,female,26.1,0,no,northwest,2,146189,1,moderate,hypertension,none,none,5805.0
+56,male,33.2,2,no,southwest,9,94710,8,high,heart disease,none,arthritis,4980.0
+49,male,29.4,2,no,southeast,2,23443,10,moderate,none,insulin,none,5450.0
+41,male,32.1,4,no,southeast,2,41395,4,moderate,hypertension,none,none,6625.0
+40,female,25.6,3,no,northeast,6,30725,3,high,diabetes,blood pressure meds,cancer,5380.0
+49,male,27.8,1,no,southwest,7,53461,7,moderate,none,cholesterol meds,none,4470.0
+54,female,33.6,4,no,northeast,7,147000,2,moderate,none,blood pressure meds,arthritis,6160.0
+29,female,28.1,1,yes,southwest,9,61115,8,moderate,hypertension,insulin,arthritis,9085.0
+30,male,38.6,3,yes,southwest,6,130084,6,moderate,heart disease,insulin,asthma,9830.0
+40,male,28.0,2,no,northwest,8,116887,7,high,hypertension,none,arthritis,4400.0
+42,male,31.1,1,yes,northwest,6,103732,5,low,heart disease,none,asthma,10495.0
+52,female,34.7,0,yes,northeast,2,132145,9,low,none,insulin,none,11575.0
+58,male,22.9,0,no,southwest,1,99790,5,moderate,hypertension,insulin,arthritis,5105.0
+47,male,21.2,4,yes,southeast,5,99557,5,moderate,diabetes,blood pressure meds,cancer,9400.0
+34,male,22.4,3,no,northwest,9,131672,3,moderate,hypertension,blood pressure meds,cancer,5100.0
+37,male,36.3,4,no,southeast,8,91260,1,low,heart disease,none,cancer,6955.0
+42,male,27.2,4,no,northeast,4,48690,2,moderate,heart disease,blood pressure meds,none,6400.0
+39,female,42.8,4,no,northwest,5,21407,8,high,hypertension,none,none,5320.0
+30,female,27.2,0,no,northwest,5,93568,1,high,heart disease,none,asthma,4960.0
+36,male,30.9,0,yes,southwest,6,78560,7,high,none,cholesterol meds,cancer,9265.0
+53,male,37.7,4,no,northeast,3,67340,5,low,hypertension,none,asthma,7145.0
+29,male,40.0,0,yes,southwest,5,37794,3,moderate,heart disease,blood pressure meds,asthma,10580.0
+58,male,40.3,3,no,northwest,2,39881,7,moderate,hypertension,insulin,arthritis,6275.0
+36,female,36.0,4,no,northeast,10,106292,9,moderate,hypertension,insulin,arthritis,4920.0
+29,male,35.1,0,no,northwest,1,125698,2,low,diabetes,blood pressure meds,cancer,7135.0
+26,female,33.0,1,yes,northeast,1,114952,8,low,hypertension,insulin,none,11070.0
+24,female,33.9,4,no,northwest,10,69703,9,low,diabetes,none,arthritis,5575.0
+45,male,27.2,4,no,southeast,7,64354,3,low,heart disease,insulin,none,6660.0
+31,female,25.9,3,no,southeast,2,111288,2,high,diabetes,blood pressure meds,asthma,6015.0
+48,female,30.0,2,no,southwest,4,98462,7,low,diabetes,insulin,asthma,6460.0
+36,female,29.1,2,yes,southeast,5,139020,5,low,diabetes,none,asthma,10375.0
+64,female,27.7,3,no,northwest,7,119301,5,low,none,none,asthma,5965.0
+33,male,33.5,3,yes,northwest,2,138764,10,moderate,diabetes,blood pressure meds,cancer,10435.0
+22,male,34.8,3,no,southeast,6,34390,5,moderate,hypertension,blood pressure meds,asthma,4480.0
+52,female,30.4,2,yes,southwest,1,124403,4,moderate,diabetes,blood pressure meds,arthritis,11560.0
+29,male,37.4,3,yes,southeast,7,107475,5,high,hypertension,cholesterol meds,asthma,9750.0
+42,male,24.3,0,no,northeast,9,47307,4,high,diabetes,cholesterol meds,none,5055.0
+38,male,29.0,4,no,northeast,5,116364,6,low,none,none,arthritis,5610.0
+53,male,26.4,4,yes,northeast,5,114049,4,moderate,heart disease,cholesterol meds,none,10780.0
+40,male,20.7,1,no,southeast,4,138740,2,high,diabetes,cholesterol meds,none,5735.0
+33,female,29.6,1,no,southeast,3,139991,9,moderate,diabetes,insulin,cancer,5040.0
+56,male,29.4,4,no,southeast,9,44502,2,high,none,cholesterol meds,cancer,5990.0
+62,male,37.6,0,yes,northeast,5,115599,9,high,diabetes,insulin,none,10120.0
+59,male,33.2,2,no,southwest,8,42486,10,low,hypertension,blood pressure meds,none,6040.0
+56,male,24.9,2,no,northwest,9,131813,6,low,diabetes,insulin,asthma,5565.0
+31,female,39.3,0,no,southeast,5,58258,9,high,diabetes,insulin,arthritis,4585.0
+48,female,36.1,2,yes,southwest,10,77716,9,low,heart disease,blood pressure meds,asthma,10965.0
+22,female,32.9,3,no,northwest,9,117228,3,high,heart disease,blood pressure meds,cancer,5385.0
+52,female,28.9,4,yes,northwest,2,123920,1,high,diabetes,none,cancer,11685.0
+40,male,25.2,4,no,northwest,9,101494,1,moderate,none,none,asthma,5460.0
+46,female,28.1,0,yes,southwest,4,120552,3,low,heart disease,none,arthritis,12125.0
+60,male,35.4,2,no,southwest,6,102768,5,low,diabetes,none,none,6170.0
+28,male,39.4,1,no,northeast,6,30748,3,low,heart disease,insulin,asthma,6630.0
+35,male,37.7,1,yes,southwest,6,82785,9,moderate,diabetes,insulin,cancer,9685.0
+64,male,27.6,2,yes,southwest,2,96050,9,moderate,heart disease,none,arthritis,10660.0
+29,male,24.4,1,yes,southwest,7,42738,3,moderate,heart disease,cholesterol meds,cancer,9900.0
+26,female,30.7,0,no,northwest,6,94231,3,low,hypertension,none,arthritis,6055.0
+27,female,21.2,0,no,southeast,1,93606,5,low,diabetes,cholesterol meds,arthritis,5400.0
+61,female,31.6,2,no,northeast,2,113301,2,low,diabetes,blood pressure meds,arthritis,7800.0
+34,female,29.3,1,no,southeast,7,61662,6,moderate,diabetes,insulin,asthma,4245.0
+55,male,27.7,0,yes,southeast,1,138313,7,moderate,diabetes,insulin,asthma,10285.0
+24,female,22.0,0,no,southwest,1,116297,9,high,heart disease,cholesterol meds,asthma,4380.0
+63,male,32.6,3,no,northeast,1,102234,6,moderate,hypertension,none,arthritis,5990.0
+30,female,27.3,3,no,southeast,8,35123,3,high,hypertension,insulin,arthritis,5265.0
+57,male,24.2,0,no,southeast,4,120680,5,low,none,cholesterol meds,cancer,6150.0
+59,male,15.6,2,no,northeast,4,45616,4,moderate,diabetes,blood pressure meds,none,5960.0
+26,female,29.9,4,no,southwest,2,122682,5,low,none,blood pressure meds,asthma,6215.0
+44,male,38.9,4,no,southeast,1,31182,8,low,heart disease,insulin,arthritis,7025.0
+19,male,38.3,0,yes,northwest,10,110369,8,low,none,none,cancer,10295.0
+22,female,27.7,0,no,southeast,9,118878,6,low,diabetes,cholesterol meds,cancer,4825.0
+46,male,27.0,0,no,northwest,7,82013,1,moderate,hypertension,insulin,cancer,5270.0
+54,female,32.3,2,no,southwest,4,51331,8,low,hypertension,blood pressure meds,asthma,6695.0
+55,female,25.0,3,no,southeast,6,66098,8,high,diabetes,none,asthma,4650.0
+36,female,31.5,0,yes,northeast,2,46128,2,moderate,heart disease,cholesterol meds,none,11095.0
+25,male,33.8,0,yes,northeast,7,51556,4,low,diabetes,insulin,cancer,11190.0
+62,male,36.1,1,yes,southeast,2,147398,2,moderate,heart disease,cholesterol meds,asthma,11945.0
+18,male,29.5,2,yes,southwest,10,107505,4,high,hypertension,none,cancer,10035.0
+39,female,29.0,0,yes,southwest,8,41876,10,low,heart disease,none,arthritis,10230.0
+34,male,25.6,1,yes,northeast,8,28949,7,high,diabetes,blood pressure meds,cancer,9060.0
+24,female,25.9,4,no,southeast,1,71962,9,low,diabetes,none,none,5975.0
+42,female,28.9,0,yes,southwest,8,110054,8,high,diabetes,insulin,asthma,9285.0
+62,male,31.8,0,yes,northeast,2,143984,9,low,heart disease,cholesterol meds,arthritis,11630.0
+21,female,34.6,1,no,northwest,6,91206,8,moderate,heart disease,none,asthma,4250.0
+53,male,26.0,2,yes,southeast,1,44099,2,low,heart disease,none,arthritis,12360.0
+23,male,37.5,0,no,northwest,5,124871,7,moderate,hypertension,insulin,cancer,4335.0
+48,male,28.6,4,no,northwest,7,32716,2,low,none,cholesterol meds,cancer,6790.0
+36,male,29.9,0,yes,southwest,10,72611,2,low,none,cholesterol meds,none,11215.0
+61,male,26.3,4,no,southwest,1,58885,4,high,diabetes,blood pressure meds,none,6735.0
+56,female,17.9,3,yes,southwest,2,73144,1,high,hypertension,blood pressure meds,arthritis,11115.0
+44,female,34.4,3,yes,southeast,7,85220,5,high,heart disease,cholesterol meds,none,9900.0
+27,female,33.7,4,no,northwest,6,27837,6,low,diabetes,insulin,none,5625.0
+43,male,28.6,2,no,southeast,3,69355,9,low,hypertension,insulin,none,6290.0
+36,male,30.3,0,yes,southwest,10,67299,10,low,diabetes,blood pressure meds,none,10235.0
+56,male,32.6,0,no,northwest,2,39159,8,moderate,hypertension,none,cancer,5550.0
+20,female,22.2,3,no,southeast,10,145212,2,moderate,hypertension,insulin,none,4810.0
+62,male,27.4,4,yes,southeast,4,136680,1,low,none,none,cancer,12810.0
+30,female,34.0,0,yes,northeast,3,136931,2,high,diabetes,insulin,cancer,11100.0
+45,female,23.7,0,no,southeast,7,126802,7,high,heart disease,cholesterol meds,asthma,4085.0
+37,male,31.5,2,yes,southwest,8,136375,4,high,none,blood pressure meds,cancer,10515.0
+45,male,23.2,1,yes,southeast,2,122413,10,low,none,none,cancer,10960.0
+25,female,32.3,3,yes,northwest,10,71012,5,high,heart disease,none,none,9415.0
+58,male,29.8,3,yes,southeast,7,79305,7,low,hypertension,cholesterol meds,cancer,10950.0
+56,female,21.9,1,yes,northeast,8,107096,3,moderate,heart disease,insulin,arthritis,10315.0
+18,male,35.8,0,yes,northwest,6,37106,10,high,diabetes,none,none,9150.0
+20,male,26.3,2,yes,northwest,6,78123,2,moderate,heart disease,insulin,none,9915.0
+30,female,25.9,2,no,northeast,10,131825,7,high,hypertension,cholesterol meds,none,4095.0
+45,male,31.0,3,yes,southwest,1,28720,5,low,heart disease,blood pressure meds,asthma,11550.0
+42,female,35.7,2,no,northwest,4,57661,1,low,hypertension,none,none,7625.0
+50,male,24.9,1,no,southwest,1,135031,1,low,hypertension,insulin,cancer,7145.0
+55,female,30.3,0,no,northwest,4,113898,9,low,diabetes,none,arthritis,6415.0
+23,female,32.1,1,yes,northwest,2,113794,5,high,heart disease,insulin,none,9965.0
+61,male,33.5,4,yes,southwest,5,107318,1,moderate,heart disease,insulin,none,11295.0
+62,female,30.9,3,no,northwest,10,126704,7,low,diabetes,insulin,arthritis,6085.0
+49,male,28.2,2,yes,southwest,9,41120,9,high,hypertension,cholesterol meds,none,9590.0
+62,male,25.9,4,no,northeast,10,39790,1,moderate,heart disease,blood pressure meds,asthma,5935.0
+64,male,30.4,2,yes,southwest,3,78655,10,low,diabetes,none,cancer,11800.0
+38,female,24.6,0,yes,northeast,8,79643,4,moderate,hypertension,blood pressure meds,arthritis,9990.0
+33,female,15.4,0,no,northwest,3,113448,3,low,diabetes,insulin,arthritis,6230.0
+38,male,32.2,0,no,southwest,6,67374,5,moderate,heart disease,insulin,asthma,4370.0
+28,male,34.5,2,no,northwest,4,62907,7,moderate,diabetes,blood pressure meds,cancer,5285.0
+54,female,18.2,4,yes,southwest,8,70071,8,low,none,blood pressure meds,asthma,10390.0
+53,male,25.0,0,no,northeast,6,140507,2,high,hypertension,none,cancer,5310.0
+52,male,33.1,4,yes,northeast,8,54812,7,moderate,none,insulin,asthma,10095.0
+36,female,40.3,2,yes,southwest,1,69570,1,low,none,blood pressure meds,none,12735.0
+37,male,30.1,4,yes,northeast,6,70901,7,moderate,hypertension,cholesterol meds,asthma,9645.0
+35,female,26.4,2,no,northwest,1,80186,8,moderate,hypertension,insulin,arthritis,5020.0
+64,male,29.1,2,no,northwest,1,142066,2,high,diabetes,insulin,arthritis,6735.0
+58,female,36.9,3,no,southeast,8,148364,9,moderate,hypertension,none,arthritis,5305.0
+31,male,26.8,2,yes,northeast,7,70251,1,moderate,none,cholesterol meds,asthma,10160.0
+32,male,26.0,2,yes,northwest,3,85171,6,low,none,none,arthritis,10940.0
+48,female,27.6,1,no,southwest,6,56160,1,low,heart disease,cholesterol meds,arthritis,6440.0
+18,male,25.2,0,yes,northeast,9,39156,3,high,hypertension,none,none,9620.0
+20,female,30.6,3,yes,northwest,7,96208,6,moderate,none,cholesterol meds,none,9230.0
+33,male,38.1,3,no,northeast,3,99980,3,moderate,heart disease,cholesterol meds,cancer,6665.0
+40,female,31.6,3,no,southwest,6,92320,8,moderate,heart disease,cholesterol meds,cancer,4680.0
+28,female,28.7,1,no,northwest,4,37929,5,high,diabetes,blood pressure meds,cancer,4895.0
+29,female,28.5,2,yes,southeast,3,86606,2,moderate,none,insulin,asthma,11005.0
+27,female,22.2,0,yes,southeast,9,108442,4,low,diabetes,cholesterol meds,cancer,10650.0
+49,male,34.4,4,yes,northeast,10,120154,9,high,none,blood pressure meds,asthma,10100.0
+33,male,29.6,2,yes,southwest,2,82559,4,low,diabetes,blood pressure meds,asthma,12140.0
+25,female,29.1,1,yes,northwest,1,74205,10,low,diabetes,none,cancer,10855.0
+55,female,46.0,2,no,southwest,2,130694,10,high,hypertension,insulin,cancer,6400.0
+29,female,31.5,2,yes,northwest,7,88475,8,low,diabetes,insulin,asthma,10355.0
+41,male,26.2,1,yes,northeast,10,84341,5,moderate,hypertension,none,none,9230.0
+45,male,27.9,3,yes,northwest,1,115377,10,high,heart disease,insulin,arthritis,10395.0
+25,male,35.7,3,no,southwest,6,62863,1,low,none,none,arthritis,6585.0
+45,male,30.6,0,no,southwest,7,101837,7,moderate,heart disease,blood pressure meds,arthritis,4430.0
+53,female,22.8,0,no,northeast,9,85439,3,moderate,none,blood pressure meds,none,5200.0
+43,female,34.6,3,yes,southwest,8,27194,10,low,heart disease,cholesterol meds,asthma,10890.0
+25,female,26.7,4,no,northwest,6,91387,8,moderate,none,none,cancer,4235.0
+45,male,39.4,2,no,northeast,3,141361,3,high,diabetes,blood pressure meds,asthma,6870.0
+45,male,35.4,4,no,northwest,8,101914,1,low,none,blood pressure meds,asthma,7070.0
+54,male,27.8,2,yes,southwest,7,86214,5,moderate,none,none,cancer,9670.0
+58,female,36.4,3,no,northeast,3,116176,2,moderate,heart disease,blood pressure meds,none,7080.0
+53,female,30.3,0,yes,northwest,9,119292,4,low,heart disease,insulin,arthritis,11575.0
+44,male,34.3,0,yes,southwest,2,49777,1,low,heart disease,blood pressure meds,arthritis,12395.0
+34,female,32.4,4,no,southwest,3,145355,9,low,hypertension,none,asthma,6500.0
+26,male,25.8,0,yes,southeast,2,46183,6,low,hypertension,insulin,none,10610.0
+50,male,26.8,3,no,southwest,1,47445,8,high,none,insulin,arthritis,5440.0
+37,female,35.1,4,yes,northwest,4,87038,4,low,none,blood pressure meds,none,12695.0
+30,male,28.3,2,no,northeast,5,136477,9,high,diabetes,cholesterol meds,cancer,4215.0
+45,female,28.0,0,no,southeast,6,107201,2,high,diabetes,insulin,asthma,5300.0
+46,male,25.2,1,no,southwest,5,36198,9,low,none,none,asthma,5280.0
+30,female,32.1,0,yes,southwest,1,41411,5,high,hypertension,cholesterol meds,none,10005.0
+63,female,40.3,2,no,southwest,3,70577,6,low,none,cholesterol meds,arthritis,7275.0
+52,female,24.7,4,yes,northwest,1,35867,3,low,diabetes,insulin,none,12475.0
+23,male,30.1,2,no,southeast,5,82501,4,moderate,hypertension,blood pressure meds,cancer,5165.0
+35,male,37.1,1,yes,northwest,5,34266,6,low,hypertension,cholesterol meds,arthritis,10655.0
+22,female,29.6,3,yes,southeast,6,59422,7,moderate,diabetes,blood pressure meds,arthritis,9220.0
+64,female,32.3,0,no,northeast,8,55208,1,high,none,insulin,none,5895.0
+42,male,24.7,4,no,northwest,10,128538,7,moderate,heart disease,none,cancer,4475.0
+19,male,32.1,3,no,northwest,1,141544,1,high,none,cholesterol meds,arthritis,6085.0
+27,male,29.1,2,no,northeast,4,51213,5,low,none,none,asthma,5995.0
+47,female,34.9,4,no,southeast,10,27367,6,high,diabetes,blood pressure meds,cancer,5085.0
+62,male,35.9,3,yes,southwest,1,144158,2,high,hypertension,blood pressure meds,arthritis,12135.0
+22,male,42.9,4,no,northeast,9,99026,10,low,diabetes,none,none,5985.0
+50,female,32.9,1,no,southwest,7,55362,9,high,none,insulin,arthritis,4745.0
+18,male,31.6,1,yes,southwest,7,139377,10,low,heart disease,insulin,asthma,10040.0
+35,male,31.0,0,no,northeast,5,71588,6,moderate,heart disease,cholesterol meds,cancer,4250.0
+49,male,28.2,0,no,southeast,7,58285,7,low,heart disease,cholesterol meds,arthritis,5390.0
+64,female,31.7,1,yes,southwest,2,146683,10,low,diabetes,insulin,asthma,11765.0
+28,female,28.5,4,no,northeast,4,145085,8,high,hypertension,insulin,arthritis,5185.0
+38,female,30.8,1,no,northwest,7,94755,10,moderate,diabetes,none,arthritis,4400.0
+43,female,36.6,0,no,northwest,3,91846,1,low,heart disease,blood pressure meds,cancer,7490.0
+42,female,25.0,1,yes,northwest,2,56307,8,moderate,none,blood pressure meds,none,9990.0
+39,female,35.7,1,no,northeast,10,115167,4,moderate,hypertension,cholesterol meds,none,5665.0
+44,female,36.6,4,yes,northwest,2,100280,10,high,diabetes,insulin,asthma,10910.0
+30,male,29.4,3,no,southwest,1,39867,8,low,diabetes,none,asthma,6170.0
+50,male,19.4,0,yes,northwest,5,76523,6,high,hypertension,cholesterol meds,asthma,8970.0
+51,female,27.0,4,no,northwest,6,104161,9,low,hypertension,none,cancer,5770.0
+58,male,36.5,1,yes,southwest,6,26378,4,moderate,none,insulin,none,11085.0
+52,male,29.9,1,yes,northwest,9,104685,2,low,hypertension,insulin,asthma,11635.0
+18,female,25.0,3,yes,southwest,4,127669,2,low,none,insulin,asthma,11710.0
+38,male,27.5,0,yes,northwest,1,96958,5,moderate,heart disease,blood pressure meds,arthritis,9935.0
+23,male,34.2,0,yes,southwest,6,47926,10,moderate,heart disease,insulin,arthritis,9170.0
+45,male,32.7,2,yes,northwest,5,123215,9,low,diabetes,cholesterol meds,asthma,10735.0
+34,male,28.8,0,no,southwest,10,118707,3,high,heart disease,blood pressure meds,arthritis,5120.0
+22,male,28.2,3,no,northeast,6,33180,8,low,heart disease,none,arthritis,5150.0
+48,female,28.0,2,yes,southwest,3,112837,4,moderate,none,cholesterol meds,arthritis,11360.0
+22,female,25.4,2,yes,northwest,2,138070,6,high,diabetes,cholesterol meds,cancer,9710.0
+55,female,38.1,1,yes,northwest,6,56931,10,moderate,hypertension,none,asthma,10105.0
+20,male,28.4,1,yes,southeast,1,44014,6,moderate,diabetes,blood pressure meds,asthma,9720.0
+40,female,36.1,0,no,southwest,7,134775,3,high,heart disease,cholesterol meds,arthritis,5605.0
+54,male,37.6,2,yes,northeast,7,116472,5,moderate,hypertension,cholesterol meds,cancer,10160.0
+54,male,35.0,1,no,southwest,10,99872,3,moderate,diabetes,cholesterol meds,arthritis,5930.0
+27,male,27.8,3,no,southwest,7,78502,1,moderate,diabetes,blood pressure meds,cancer,5230.0
+27,male,32.0,1,yes,northeast,10,107736,7,moderate,diabetes,blood pressure meds,asthma,9240.0
+36,female,29.9,1,yes,southwest,1,25470,4,moderate,diabetes,blood pressure meds,arthritis,11115.0
+34,female,25.5,2,no,northeast,4,116395,7,moderate,none,cholesterol meds,asthma,4955.0
+38,male,31.6,2,no,northeast,7,34953,3,moderate,diabetes,insulin,cancer,5540.0
+31,female,24.1,4,yes,southwest,9,124580,5,moderate,heart disease,none,none,9225.0
+26,male,35.9,3,yes,southwest,5,58507,5,moderate,heart disease,insulin,cancer,9615.0
+63,female,27.7,2,yes,northwest,2,138961,2,low,none,blood pressure meds,none,12645.0
+18,female,31.0,0,no,northwest,7,112969,10,low,hypertension,cholesterol meds,asthma,4910.0
+62,male,31.4,3,no,southeast,10,111493,2,moderate,hypertension,cholesterol meds,asthma,6110.0
+30,female,28.7,3,yes,southeast,1,26523,4,low,heart disease,insulin,arthritis,12135.0
+21,male,32.9,2,no,southwest,7,106923,4,high,heart disease,insulin,none,5265.0
+18,female,27.6,3,no,northeast,6,77190,4,low,none,none,cancer,6040.0
+57,male,34.4,2,yes,southeast,7,67761,6,moderate,hypertension,cholesterol meds,asthma,10060.0
+49,male,23.3,1,yes,southwest,10,51169,2,moderate,hypertension,insulin,none,10245.0
+51,female,30.6,4,no,southeast,3,65641,6,low,diabetes,none,cancer,6750.0
+45,female,39.7,1,no,northeast,3,42990,7,moderate,diabetes,blood pressure meds,none,5785.0
+48,male,25.0,2,yes,southwest,7,49661,10,high,diabetes,insulin,cancer,9410.0
+25,female,26.6,2,yes,northeast,2,33419,3,high,none,blood pressure meds,cancer,10830.0
+56,female,32.6,1,yes,southwest,1,34457,8,moderate,heart disease,none,cancer,10650.0
+43,male,30.9,0,yes,southeast,9,87600,2,high,none,blood pressure meds,cancer,10405.0
+51,male,31.8,0,yes,northwest,9,123619,8,high,hypertension,cholesterol meds,none,9610.0
+20,female,32.4,0,no,southeast,7,96102,5,low,heart disease,cholesterol meds,none,5020.0
+29,male,33.2,2,no,southeast,7,53085,2,high,diabetes,blood pressure meds,arthritis,5440.0
+18,male,35.5,3,no,northwest,3,117064,7,low,none,cholesterol meds,none,6235.0
+61,male,32.0,2,no,northwest,10,70654,2,moderate,none,none,none,6020.0
+22,female,28.8,3,yes,southwest,2,26130,6,low,diabetes,cholesterol meds,arthritis,10980.0
+47,female,33.4,1,yes,southwest,7,125723,10,moderate,none,blood pressure meds,none,9710.0
+47,male,39.5,4,yes,northeast,9,22042,3,moderate,diabetes,blood pressure meds,cancer,11315.0
+34,female,29.3,3,no,northeast,1,90134,9,moderate,hypertension,blood pressure meds,asthma,5245.0
+64,male,25.1,0,no,southeast,4,62982,3,moderate,heart disease,insulin,asthma,6335.0
+40,female,35.5,2,no,northwest,6,118422,3,moderate,hypertension,blood pressure meds,arthritis,5775.0
+32,male,29.4,1,yes,northeast,7,85185,5,low,hypertension,none,none,10210.0
+54,male,19.1,0,no,southeast,10,53477,7,moderate,diabetes,cholesterol meds,none,4035.0
+38,female,34.2,1,yes,northwest,7,134161,8,high,none,cholesterol meds,arthritis,9570.0
+31,male,27.3,4,yes,southwest,10,72709,7,high,hypertension,insulin,asthma,9385.0
+19,female,29.5,2,yes,southeast,2,48716,9,moderate,hypertension,insulin,cancer,9855.0
+28,female,31.7,2,yes,southwest,4,98137,5,high,hypertension,none,none,10145.0
+56,male,31.0,4,yes,northeast,5,56018,10,low,none,blood pressure meds,arthritis,11070.0
+55,male,33.5,2,yes,northeast,1,28061,3,low,none,insulin,cancer,12775.0
+51,female,27.8,3,no,northwest,1,28609,6,moderate,diabetes,cholesterol meds,arthritis,5510.0
+55,male,32.6,1,yes,southeast,10,55371,5,moderate,hypertension,insulin,arthritis,9830.0
+51,male,28.7,0,yes,southwest,3,130350,4,moderate,heart disease,insulin,arthritis,11255.0
+35,male,33.7,4,no,northwest,10,103021,2,high,none,blood pressure meds,asthma,5785.0
+47,male,33.1,3,yes,northeast,3,40805,7,high,diabetes,insulin,asthma,10695.0
+32,male,25.3,0,no,northeast,8,27857,5,low,hypertension,none,arthritis,4905.0
+44,female,35.4,0,no,southeast,9,31620,4,high,heart disease,cholesterol meds,none,5650.0
+51,female,27.3,4,no,southwest,1,28177,8,low,none,blood pressure meds,cancer,6585.0
+55,male,34.0,3,yes,southeast,2,50111,9,high,heart disease,cholesterol meds,none,10900.0
+50,male,31.8,0,yes,southwest,10,140770,9,low,none,none,asthma,10590.0
+41,male,39.2,0,no,southwest,2,108578,3,moderate,diabetes,none,cancer,6580.0
+32,female,28.9,3,yes,southeast,4,104181,3,high,heart disease,insulin,arthritis,11185.0
+47,male,28.3,2,yes,northwest,2,109941,5,low,hypertension,insulin,none,11355.0
+59,female,29.9,0,no,southeast,7,147049,5,high,hypertension,insulin,none,4675.0
+34,female,28.5,1,no,southeast,9,31826,10,moderate,none,cholesterol meds,arthritis,4205.0
+22,female,34.0,3,yes,northeast,7,33890,2,low,hypertension,none,none,11440.0
+46,male,21.9,0,no,northeast,6,102428,1,high,heart disease,blood pressure meds,asthma,5015.0
+21,female,24.7,4,no,southeast,10,137067,8,high,diabetes,insulin,arthritis,4055.0
+27,male,24.7,1,no,southeast,1,146044,3,moderate,none,cholesterol meds,none,5675.0
+34,female,34.8,0,yes,northeast,10,78031,1,moderate,heart disease,insulin,arthritis,10420.0
+27,male,38.6,1,yes,southwest,9,139440,1,low,none,none,cancer,11570.0
+34,female,29.5,1,yes,southeast,5,132134,2,high,diabetes,blood pressure meds,arthritis,10255.0
+37,male,29.2,2,no,northwest,5,95020,6,high,none,none,none,4400.0
+41,female,30.4,1,yes,northwest,6,25495,6,moderate,hypertension,cholesterol meds,asthma,9440.0
+22,male,35.8,2,no,northwest,9,48481,3,moderate,hypertension,insulin,arthritis,5430.0
+51,male,25.4,3,yes,southeast,8,31267,4,low,none,none,arthritis,11590.0
+23,male,31.2,2,yes,southwest,8,137897,2,high,diabetes,cholesterol meds,none,10220.0
+19,male,34.9,4,no,southwest,8,125702,2,high,diabetes,insulin,asthma,5525.0
+30,female,32.5,0,yes,northeast,1,26743,7,low,hypertension,blood pressure meds,asthma,11025.0
+60,female,30.9,3,no,southeast,1,74800,1,low,diabetes,none,cancer,7845.0
+60,male,35.0,3,yes,southwest,8,123475,7,moderate,none,insulin,cancer,10250.0
+28,female,16.5,4,yes,southeast,5,68773,1,moderate,heart disease,insulin,none,9785.0
+64,male,33.4,2,no,northeast,9,77042,6,low,none,insulin,asthma,6150.0
+40,male,26.7,0,no,northeast,2,69476,3,low,hypertension,insulin,asthma,6935.0
+33,female,20.8,2,no,northeast,9,147967,8,high,hypertension,none,cancer,3900.0
+48,male,32.6,1,yes,northwest,8,112105,6,low,hypertension,insulin,cancer,10690.0
+28,male,36.9,2,yes,southeast,9,48552,2,low,diabetes,cholesterol meds,none,11605.0
+33,female,29.3,3,yes,northeast,4,85242,8,high,none,none,asthma,10225.0
+25,male,34.8,0,no,southeast,1,65772,5,low,heart disease,insulin,arthritis,6040.0
+21,male,38.1,2,no,northwest,1,63730,8,moderate,none,none,cancer,5325.0
+57,male,36.6,0,no,northwest,5,48948,8,moderate,heart disease,cholesterol meds,none,4970.0
+21,male,38.2,0,yes,northeast,2,96311,6,high,none,cholesterol meds,asthma,10130.0
+42,female,33.7,1,yes,northeast,8,89093,2,low,hypertension,none,asthma,11625.0
+20,female,30.4,1,no,southwest,10,89123,8,moderate,heart disease,insulin,cancer,4020.0
+49,female,22.0,3,yes,southeast,5,36535,6,moderate,none,insulin,none,9380.0
+20,male,28.8,4,no,northeast,5,86490,6,moderate,diabetes,cholesterol meds,arthritis,4240.0
+44,male,25.8,0,yes,southwest,2,66562,8,moderate,diabetes,insulin,cancer,9970.0
+46,female,40.9,4,yes,southeast,7,139042,1,low,none,cholesterol meds,none,12365.0
+49,male,29.1,3,no,northeast,8,145251,2,low,hypertension,insulin,asthma,6735.0
+36,male,30.6,0,yes,southwest,10,109080,9,low,heart disease,cholesterol meds,arthritis,10250.0
+38,male,32.8,0,yes,southwest,1,147844,8,low,none,blood pressure meds,none,11200.0
+22,male,30.2,4,no,southeast,2,78535,7,moderate,diabetes,insulin,arthritis,5150.0
+35,female,38.5,2,no,southwest,10,118991,7,high,heart disease,insulin,none,4825.0
+45,female,26.9,1,yes,southeast,4,61269,5,high,diabetes,insulin,none,10145.0
+59,female,31.0,2,no,southeast,5,100674,2,moderate,diabetes,none,none,5930.0
+39,male,26.3,4,yes,southeast,2,62462,6,moderate,none,insulin,none,10295.0
+38,female,23.4,1,no,northwest,1,23127,10,high,diabetes,none,arthritis,4830.0
+23,female,26.9,2,yes,southwest,9,43147,3,high,heart disease,none,cancer,10005.0
+18,male,29.8,1,yes,southeast,1,65528,4,moderate,hypertension,cholesterol meds,arthritis,10750.0
+22,male,27.9,0,no,northeast,4,97095,10,moderate,none,none,none,4635.0
+58,female,26.5,2,yes,northwest,2,133100,2,low,heart disease,none,arthritis,12485.0
+29,female,23.0,1,yes,northwest,4,88931,2,low,none,blood pressure meds,arthritis,11630.0
+43,female,29.6,1,no,southwest,8,110925,8,high,diabetes,insulin,arthritis,4440.0
+63,female,22.5,1,no,southeast,8,86381,8,moderate,diabetes,none,none,4485.0
+51,male,33.8,2,yes,southwest,9,119468,10,high,heart disease,insulin,arthritis,9910.0
+31,female,30.4,3,no,northwest,5,131258,6,low,heart disease,none,asthma,5440.0
+43,female,22.7,2,no,southeast,7,83749,5,low,hypertension,cholesterol meds,none,5195.0
+62,male,28.5,4,yes,northeast,3,58672,8,high,heart disease,blood pressure meds,arthritis,10865.0
+44,female,26.2,2,yes,southeast,10,33731,4,low,heart disease,none,asthma,11390.0
+26,male,31.6,1,no,northwest,4,144647,4,moderate,none,insulin,arthritis,6000.0
+43,male,36.7,0,no,northeast,10,74512,5,high,diabetes,cholesterol meds,cancer,4695.0
+64,male,20.6,2,no,southeast,9,118658,1,moderate,heart disease,insulin,arthritis,5510.0
+39,female,30.6,2,yes,northeast,10,71024,1,moderate,hypertension,cholesterol meds,arthritis,10510.0
+64,female,29.2,1,yes,northeast,10,136712,2,low,heart disease,blood pressure meds,cancer,11840.0
+47,male,33.4,0,yes,northwest,1,121121,8,moderate,diabetes,cholesterol meds,none,10410.0
+60,female,31.1,0,yes,northeast,2,23832,7,high,heart disease,insulin,cancer,10555.0
+34,female,26.2,4,yes,southwest,5,52332,10,moderate,none,insulin,none,9390.0
+43,male,28.4,2,yes,northwest,3,32467,9,moderate,diabetes,none,cancer,10280.0
+53,male,26.0,0,yes,southwest,2,61025,5,moderate,heart disease,cholesterol meds,arthritis,10160.0
+18,female,35.4,0,no,northeast,1,33107,2,moderate,none,insulin,arthritis,5930.0
+25,male,30.1,3,no,southwest,10,148347,7,moderate,diabetes,none,none,4305.0
+52,female,39.5,3,yes,southeast,3,97994,8,low,heart disease,blood pressure meds,none,12115.0
+32,female,29.7,0,yes,northeast,1,114202,7,high,none,insulin,asthma,9925.0
+64,female,26.5,4,yes,southeast,1,63481,7,low,hypertension,none,asthma,11805.0
+39,female,22.4,0,no,southwest,1,22581,5,high,none,insulin,arthritis,4700.0
+31,male,21.0,1,yes,southeast,8,95118,2,high,hypertension,cholesterol meds,arthritis,9770.0
+43,male,22.1,2,no,northeast,3,144010,6,high,heart disease,none,asthma,4965.0
+45,male,31.3,4,no,southeast,1,71638,4,high,none,cholesterol meds,asthma,6665.0
+40,male,32.5,1,no,southwest,7,143714,10,high,hypertension,blood pressure meds,none,4525.0
+31,female,22.1,4,no,southwest,10,28418,2,moderate,diabetes,cholesterol meds,cancer,5125.0
+41,female,34.5,1,no,southwest,3,113627,9,low,none,none,none,6445.0
+19,male,27.6,2,yes,northeast,8,49113,7,low,heart disease,insulin,asthma,9960.0
+62,female,30.7,2,yes,southwest,4,104363,6,moderate,diabetes,none,arthritis,10775.0
+43,female,38.1,3,no,northeast,4,143607,5,high,hypertension,cholesterol meds,asthma,5865.0
+31,female,34.5,1,yes,southeast,5,83044,3,low,none,cholesterol meds,arthritis,11445.0
+24,male,28.7,3,no,southwest,6,99955,10,moderate,none,insulin,arthritis,4215.0
+20,male,25.5,1,no,southeast,7,81030,10,moderate,heart disease,blood pressure meds,arthritis,3775.0
+64,male,19.2,3,yes,northwest,4,31814,4,low,diabetes,none,arthritis,12340.0
+40,female,26.4,2,yes,southeast,8,119340,3,low,none,insulin,cancer,11320.0
+63,male,28.9,4,yes,northwest,6,30024,8,high,none,insulin,asthma,10105.0
+60,male,25.1,3,yes,southeast,1,83288,3,high,diabetes,insulin,none,11555.0
+64,male,29.3,1,yes,northeast,1,129236,7,low,none,none,arthritis,11645.0
+62,male,30.4,1,no,southeast,9,77836,7,high,diabetes,none,arthritis,4860.0
+35,male,28.9,2,yes,northeast,10,27435,7,moderate,diabetes,none,none,9345.0
+55,male,26.7,1,yes,northeast,6,87084,7,high,diabetes,blood pressure meds,none,9535.0
+52,female,30.8,0,yes,southwest,10,144023,2,high,heart disease,insulin,arthritis,10580.0
+32,female,32.2,4,no,northeast,8,90601,10,moderate,diabetes,cholesterol meds,none,4650.0
+42,male,24.5,3,yes,northwest,7,108416,3,high,diabetes,cholesterol meds,none,10365.0
+54,male,37.1,4,no,southwest,6,140871,10,moderate,hypertension,insulin,cancer,5335.0
+45,female,29.5,2,yes,southwest,4,138645,9,high,hypertension,cholesterol meds,none,10375.0
+27,female,30.1,3,yes,southeast,7,23407,3,low,heart disease,blood pressure meds,asthma,11345.0
+56,male,33.5,3,no,northeast,9,118943,2,high,diabetes,blood pressure meds,asthma,6095.0
+34,male,31.2,0,yes,northeast,10,52940,9,low,hypertension,none,asthma,10240.0
+56,male,34.8,2,yes,northwest,10,25666,10,low,hypertension,none,arthritis,11060.0
+39,male,31.4,1,no,southeast,7,57122,9,low,none,none,asthma,5450.0
+43,female,26.9,0,yes,southeast,1,138647,4,low,diabetes,none,cancer,12005.0
+61,male,31.8,0,no,southwest,10,45092,9,low,hypertension,none,asthma,5810.0
+42,male,24.3,4,no,southwest,9,149753,3,moderate,heart disease,cholesterol meds,arthritis,5455.0
+34,male,30.5,4,no,southwest,4,143402,7,moderate,none,cholesterol meds,cancer,5405.0
+30,male,29.8,4,no,northwest,3,95645,7,moderate,none,none,asthma,5290.0
+37,female,29.0,0,no,northwest,4,121190,8,low,diabetes,blood pressure meds,cancer,5990.0
+42,female,29.4,1,yes,southwest,4,120468,10,high,diabetes,cholesterol meds,cancer,10210.0
+21,female,20.6,3,yes,southeast,10,149207,4,moderate,none,blood pressure meds,arthritis,9750.0
+27,male,27.3,4,yes,northwest,2,46505,3,high,heart disease,blood pressure meds,arthritis,11105.0
+20,male,30.5,1,no,southeast,1,56713,3,high,diabetes,insulin,cancer,5825.0
+58,female,30.8,2,no,southeast,10,74387,5,low,diabetes,insulin,asthma,5900.0
+62,male,24.9,4,no,northeast,1,63169,1,low,none,none,arthritis,7685.0
+35,male,36.3,3,no,southwest,8,93282,10,low,none,blood pressure meds,cancer,5815.0
+64,female,25.7,2,yes,northeast,2,97511,3,moderate,diabetes,cholesterol meds,none,11565.0
+53,female,34.8,2,yes,southwest,10,71742,6,low,hypertension,insulin,none,11000.0
+64,female,32.1,3,no,southwest,5,60522,3,moderate,diabetes,insulin,arthritis,6185.0
+39,female,26.8,4,no,southeast,4,101132,5,moderate,hypertension,blood pressure meds,asthma,5320.0
+51,male,38.9,0,yes,southwest,8,139622,9,moderate,none,insulin,none,9965.0
+64,male,24.0,3,no,southeast,2,138764,2,moderate,hypertension,insulin,none,6580.0
+25,female,34.6,3,no,southeast,10,123489,2,low,heart disease,cholesterol meds,none,6530.0
+57,male,35.0,3,no,southwest,9,119397,6,moderate,none,blood pressure meds,asthma,5190.0
+61,female,26.6,2,yes,southeast,7,23880,6,low,diabetes,insulin,asthma,10750.0
+36,female,37.0,1,yes,southeast,7,63454,8,low,diabetes,blood pressure meds,arthritis,10670.0
+59,male,28.7,0,no,southeast,1,75711,2,moderate,none,insulin,arthritis,6415.0
+58,female,31.4,4,yes,northwest,2,63539,9,low,none,cholesterol meds,none,11930.0
+54,male,31.3,4,no,southeast,4,128984,2,high,heart disease,blood pressure meds,asthma,6845.0
+23,male,29.3,1,no,northwest,4,88321,1,low,none,insulin,cancer,6825.0
+43,male,34.1,3,yes,northwest,3,107985,10,low,diabetes,cholesterol meds,none,11665.0
+51,male,34.0,0,no,southeast,7,34799,2,moderate,heart disease,insulin,arthritis,5720.0
+62,female,21.3,4,no,southeast,8,134584,7,moderate,diabetes,blood pressure meds,asthma,4705.0
+23,male,36.5,4,yes,northwest,2,124843,8,low,hypertension,insulin,arthritis,11485.0
+54,female,21.7,3,no,northwest,4,80102,5,moderate,none,blood pressure meds,arthritis,5265.0
+50,female,35.2,1,no,southeast,3,70726,6,high,hypertension,blood pressure meds,asthma,5660.0
+39,female,35.6,0,no,southeast,2,68784,1,high,diabetes,insulin,none,6360.0
+38,female,24.5,1,yes,southwest,6,140364,6,moderate,hypertension,cholesterol meds,asthma,9085.0
+23,male,27.9,1,no,northwest,4,133034,8,low,hypertension,none,none,5755.0
+23,male,24.5,0,yes,northwest,6,63333,3,high,diabetes,cholesterol meds,arthritis,9685.0
+21,female,28.9,0,no,southwest,2,60828,1,high,diabetes,cholesterol meds,asthma,5665.0
+47,female,28.5,4,no,northwest,4,89526,4,low,none,insulin,cancer,7565.0
+28,male,33.9,4,no,northeast,6,74362,1,moderate,hypertension,cholesterol meds,none,5655.0
+47,female,36.6,0,no,northwest,5,73997,8,high,heart disease,cholesterol meds,cancer,4770.0
+48,male,37.0,2,yes,southwest,3,143973,5,low,heart disease,none,none,11810.0
+41,female,27.2,4,yes,northeast,8,70341,1,low,diabetes,cholesterol meds,asthma,11580.0
+26,male,29.0,2,no,southeast,7,39073,8,high,diabetes,none,cancer,4170.0
+20,female,21.6,0,no,southwest,3,122399,9,moderate,hypertension,insulin,asthma,4280.0
+48,female,26.0,4,no,southwest,6,34549,10,high,diabetes,none,none,4660.0
+57,male,34.8,1,no,southeast,4,103795,2,low,heart disease,blood pressure meds,none,7780.0
+54,female,38.1,0,no,southwest,5,76920,9,high,none,blood pressure meds,none,4985.0
+53,female,23.8,3,no,northwest,5,105326,8,moderate,none,none,none,4550.0
+41,male,27.0,2,no,southeast,7,95515,7,low,hypertension,blood pressure meds,arthritis,5370.0
+48,female,29.9,0,no,southwest,5,149392,3,moderate,none,insulin,none,5455.0
+23,male,31.4,0,yes,southeast,3,40316,2,high,diabetes,blood pressure meds,cancer,10830.0
+19,male,26.0,4,yes,southeast,10,46183,7,high,diabetes,none,none,9080.0
+37,female,32.1,4,yes,southeast,5,113860,5,moderate,diabetes,insulin,asthma,9745.0
+45,female,27.6,4,no,northeast,7,44624,6,high,diabetes,blood pressure meds,arthritis,4680.0
+28,female,29.9,3,no,southwest,5,82515,4,moderate,hypertension,insulin,cancer,5355.0
+21,female,32.7,4,no,northeast,5,123712,2,high,none,none,arthritis,5455.0
+32,female,30.0,0,yes,southwest,9,105781,9,moderate,heart disease,blood pressure meds,arthritis,9140.0
+23,female,27.8,4,no,northwest,3,66705,3,moderate,none,insulin,arthritis,6050.0
+47,female,29.5,1,yes,northwest,6,109326,7,low,diabetes,insulin,asthma,10515.0
+55,male,29.6,4,no,northwest,1,46756,8,low,heart disease,blood pressure meds,arthritis,6780.0
+19,female,28.1,3,yes,southwest,10,80390,2,moderate,hypertension,insulin,arthritis,10085.0
+32,male,28.7,1,yes,southeast,5,88369,6,high,diabetes,insulin,none,9175.0
+28,female,38.0,0,yes,southeast,8,90821,8,high,diabetes,none,asthma,9460.0
+25,female,32.8,0,no,northeast,5,29589,7,high,heart disease,none,cancer,4140.0
+43,male,28.5,2,yes,northeast,9,133012,3,moderate,hypertension,none,cancer,10485.0
+62,female,33.5,1,no,northwest,6,34116,1,moderate,heart disease,none,cancer,6015.0
+61,female,28.3,2,no,northeast,8,93181,6,moderate,hypertension,none,asthma,4835.0
+22,male,35.9,1,no,southwest,10,64786,8,moderate,diabetes,none,cancer,4335.0
+23,female,31.8,1,no,southwest,8,114686,6,low,none,blood pressure meds,asthma,5150.0
+43,female,29.5,3,no,northeast,3,143711,5,moderate,diabetes,none,none,5435.0
+21,female,32.2,2,yes,northeast,7,96425,8,high,none,insulin,none,9230.0
+36,male,22.1,3,no,northeast,7,50286,2,low,none,blood pressure meds,asthma,6125.0
+37,female,24.4,1,no,northeast,10,123081,1,high,hypertension,insulin,cancer,5060.0
+50,female,24.0,0,no,northwest,6,35994,1,moderate,heart disease,none,asthma,5200.0
+37,female,30.7,1,no,northwest,7,121039,4,low,hypertension,none,asthma,6375.0
+29,female,38.7,3,no,northeast,2,131915,6,moderate,diabetes,insulin,arthritis,5615.0
+64,male,41.2,2,yes,southwest,9,142961,9,low,heart disease,insulin,asthma,11540.0
+18,male,33.2,2,yes,northwest,10,110198,1,high,none,insulin,arthritis,10220.0
+43,female,32.5,3,no,southwest,10,124672,1,moderate,none,cholesterol meds,none,5785.0
+31,female,21.0,2,yes,southeast,1,46639,5,moderate,diabetes,cholesterol meds,arthritis,9670.0
+55,male,27.3,4,yes,southwest,1,37205,10,low,heart disease,cholesterol meds,asthma,11665.0
+54,male,26.1,0,no,northeast,3,76677,5,low,diabetes,cholesterol meds,none,6185.0
+28,female,26.9,0,yes,southeast,3,52930,5,moderate,diabetes,blood pressure meds,arthritis,9705.0
+53,male,29.2,0,no,northwest,1,93313,10,low,hypertension,none,asthma,6320.0
+30,female,27.6,2,yes,northwest,7,113851,6,moderate,diabetes,insulin,none,9180.0
+60,male,20.1,2,yes,southeast,4,133153,8,low,heart disease,none,arthritis,11205.0
+20,male,33.7,1,yes,southwest,10,112509,3,high,diabetes,insulin,asthma,10185.0
+50,male,24.6,1,no,northwest,2,38316,9,low,heart disease,none,asthma,6130.0
+23,male,31.2,0,yes,northeast,10,47304,1,high,none,blood pressure meds,cancer,10020.0
+27,female,40.4,4,yes,southeast,5,121839,4,low,diabetes,cholesterol meds,cancer,11960.0
+22,male,25.4,1,no,northeast,6,116058,9,low,heart disease,none,arthritis,4810.0
+40,male,17.3,1,no,southeast,9,107876,8,moderate,none,insulin,arthritis,3765.0
+27,female,28.6,2,yes,northwest,4,105366,10,low,heart disease,none,arthritis,10970.0
+61,male,35.5,4,no,southwest,2,33403,9,low,none,blood pressure meds,asthma,7195.0
+19,male,39.8,0,yes,southeast,5,100052,1,high,hypertension,blood pressure meds,arthritis,10370.0

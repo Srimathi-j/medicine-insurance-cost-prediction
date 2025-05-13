@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health Insurance Cost Predictor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background:#f5f7fa; }
+    .card { border-radius:1rem; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    .result { background:#fff; padding:1.5rem; margin-top:2rem; border-radius:1rem; }
+    .badge-risk { font-size:1rem; }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">💡 Health Insurance Cost Estimator</h1>
+    <form method="POST" class="card p-4">
+      <div class="row g-3">
+        <!-- Core Inputs -->
+        <div class="col-md-4">
+          <label class="form-label">Age</label>
+          <input type="number" name="age" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Sex</label>
+          <select name="sex" class="form-select">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">BMI</label>
+          <input type="number" step="0.1" name="bmi" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Children</label>
+          <input type="number" name="children" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Smoker</label>
+          <select name="smoker" class="form-select">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Region</label>
+          <select name="region" class="form-select">
+            <option value="northeast">Northeast</option>
+            <option value="northwest">Northwest</option>
+            <option value="southeast">Southeast</option>
+            <option value="southwest">Southwest</option>
+          </select>
+        </div>
+        <!-- Extended Inputs -->
+        <div class="col-md-4">
+          <label class="form-label">Sleep Quality (1–10)</label>
+          <input type="number" name="sleep_quality" min="1" max="10" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Income Level ($)</label>
+          <input type="number" name="income_level" step="0.01" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Diet Quality (1–10)</label>
+          <input type="number" name="diet_quality" min="1" max="10" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Activity Level</label>
+          <select name="activity_level" class="form-select">
+            <option value="low">Low</option>
+            <option value="moderate">Moderate</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        <div class="col-md-8">
+          <label class="form-label">Family History (conditions)</label>
+          <input type="text" name="family_history" class="form-control" placeholder="e.g., diabetes, none">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Current Medication</label>
+          <input type="text" name="current_medication" class="form-control" placeholder="e.g., none, insulin">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Medical History</label>
+          <input type="text" name="medical_history" class="form-control" placeholder="e.g., asthma, none">
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary px-5" type="submit">Predict Cost</button>
+      </div>
+    </form>
+
+    {% if final_prediction %}
+    <div class="result mt-4">
+      <h3 class="text-success">🔍 Estimated Insurance Cost: <strong>${{ final_prediction }}</strong></h3>
+      <p>✅ Suggested Plan: <strong>{{ insurance_plan }}</strong></p>
+      <p>🧠 Risk Level: 
+        {% if health_risk=='High Risk' %}
+          <span class="badge bg-danger badge-risk">{{ health_risk }}</span>
+        {% elif health_risk=='Moderate Risk' %}
+          <span class="badge bg-warning text-dark badge-risk">{{ health_risk }}</span>
+        {% else %}
+          <span class="badge bg-success badge-risk">{{ health_risk }}</span>
+        {% endif %}
+      </p>
+      <p>🌍 Regional Cost Estimate: <strong>${{ region_cost_comparison }}</strong></p>
+      <p>💸 Potential Savings: <strong>${{ savings }}</strong></p>
+      <hr>
+      <h5>📋 Personalized Health Insights</h5>
+      <ul>
+        {% for insight in health_insights %}
+          <li>{{ insight }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
